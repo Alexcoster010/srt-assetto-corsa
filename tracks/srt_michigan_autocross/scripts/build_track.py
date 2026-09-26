@@ -2,7 +2,7 @@ from pathlib import Path
 import os,json,struct,io,math,hashlib,shutil
 import numpy as np
 from PIL import Image,ImageDraw,ImageFont
-P=Path(os.environ.get('SRT_TRACK_PROJECT',str(Path(__file__).resolve().parents[1])));R=P/'release-r01';T=R/'content/tracks/srt_michigan_autocross';D=T/'data'
+P=Path(os.environ.get('SRT_TRACK_PROJECT',str(Path(__file__).resolve().parents[1])));R=P/'release-r02';T=R/'content/tracks/srt_michigan_autocross';D=T/'data'
 for folder in [D,T/'ai',T/'ui',P/'reference-copies',P/'scripts']:folder.mkdir(parents=True,exist_ok=True)
 S=P/'reference-copies';source=S/'course-r25b.json';raw=source.read_bytes();C=json.loads(raw)
 assert len(C['cones'])==137
@@ -76,12 +76,20 @@ def helper(name,p,fwd):
  right=np.cross([0,1,0],fwd);xf=np.eye(4);xf[:3,:3]=[right,[0,1,0],fwd];xf[3,:3]=p;helpers.append((name,xf))
 for name,s in [('AC_PIT_0',0),('AC_START_0',2),('AC_HOTLAP_START_0',0)]:
  p,f=at(s);p[1]=.25;helper(name,p,f)
-timing=[float(C['timing_s_m'][0]),float(C['timing_s_m'][1]),orig_s[-1]+(station[-1]-orig_s[-1])*.5]
-for i,s in enumerate(timing):
- p,f=at(s);left=np.array([f[2],0,-f[0]])
- for label,sign in [('L',1),('R',-1)]:helper('AC_TIME_%d_%s'%(i,label),p+left*sign*3.5,f)
- # Flat painted timing stripe.
- v=[p+left*3.5+f*.06,p-left*3.5+f*.06,p-left*3.5-f*.06,p+left*3.5-f*.06];v=np.array(v);v[:,1]=.004;emit('SRT_TIMING_PAINT_'+str(i),[v[[0,1,2]],v[[0,2,3]]],white if i<2 else cyan)
+timing=[float(C['timing_s_m'][0]),float(C['timing_s_m'][1])]
+# Separate native point-to-point gates: return route is outside the timed event.
+# Helper convention verified from installed Kunos Trento-Bondone and acceleration build.
+for prefix,s0 in [('AC_TIME_0',timing[0]),('AC_AB_START',timing[0]),('AC_AB_FINISH',timing[1])]:
+ p,f=at(s0);left=np.array([f[2],0,-f[0]])
+ for label,sign in [('L',1),('R',-1)]:helper(prefix+'_'+label,p+left*sign*3.5,f)
+def gate_paint(name,s0,x0,x1,d0,d1,mat):
+ p,f=at(s0);left=np.array([f[2],0,-f[0]])
+ v=np.array([p+left*x0+f*d0,p+left*x0+f*d1,p+left*x1+f*d1,p+left*x1+f*d0]);v[:,1]=.006
+ emit(name,[v[[0,1,2]],v[[0,2,3]]],mat)
+gate_paint('SRT_START_STRIPE',timing[0],-3.5,3.5,-.15,.15,white)
+# Checkered band's leading edge is exactly the original MATLAB finish timing plane.
+for col in range(14):
+ for row in range(2):gate_paint('SRT_FINISH_CHECKER',timing[1],-3.5+col*.5,-3+col*.5,row*.5,(row+1)*.5,white if (col+row)%2 else black)
 # Batch meshes by material/surface for efficient draw calls; retain per-cone positions in evidence.
 old=meshes;meshes=[]
 for mat in range(len(mats)):
@@ -118,7 +126,7 @@ surf=''
 for i,(key,fric,valid,dirt,vib) in enumerate([('ASPHALT',.98,1,0,0),('GRASS',.60,0,1,.2)]):
  surf+=f'[SURFACE_{i}]\nKEY={key}\nFRICTION={fric}\nDAMPING=0\nWAV='+('grass.wav' if key=='GRASS' else '')+f'\nWAV_PITCH=0\nFF_EFFECT=NULL\nDIRT_ADDITIVE={dirt}\nBLACK_FLAG_TIME=0\nIS_VALID_TRACK={valid}\nSIN_HEIGHT=0\nSIN_LENGTH=0\nIS_PITLANE=0\nVIBRATION_GAIN={vib}\nVIBRATION_LENGTH=0.6\n\n'
 (D/'surfaces.ini').write_text(surf);(D/'lighting.ini').write_text('[LIGHTING]\nSUN_PITCH_ANGLE=40\nSUN_HEADING_ANGLE=45\n');(D/'groove.ini').write_text('[HEADER]\nGROOVES_NUMBER=0\n')
-ui={'name':'SRT Michigan Autocross - MATLAB Loop','description':'137 original estimated MATLAB cones and 744.61 m event route, plus the existing 198.67 m synthetic return. Sector 1 spans the original 699.87 m timed portion. White 4 m route guides are visual only; cyan guides mark the synthetic return. Flat training reconstruction, not a surveyed venue. Cones are visual only, as in MATLAB; no cone penalties. Single-car practice recommended.','tags':['autocross','Formula Student','SRT','practice'],'country':'USA','city':'Michigan (estimated course)','length':str(round(station[-1]))+' m','width':'Open pad; 4 m visual guides','pitboxes':'1','run':'clockwise','version':'0.1','author':'Sooner Racing Team / SRT project'};(T/'ui/ui_track.json').write_text(json.dumps(ui,indent=2))
+ui={'name':'SRT Michigan Autocross - MATLAB Loop','description':'137 original estimated MATLAB cones and 744.61 m event route, plus the existing 198.67 m synthetic return. Point-to-point timing spans only the original 699.87 m timed portion; the return loop is untimed. White 4 m route guides are visual only; cyan guides mark the synthetic return. Flat training reconstruction, not a surveyed venue. Cones are visual only, as in MATLAB; no cone penalties. Single-car practice recommended.','tags':['autocross','Formula Student','SRT','practice'],'country':'USA','city':'Michigan (estimated course)','length':'699.87 m timed / 943.28 m total','width':'Open pad; 4 m visual guides','pitboxes':'1','run':'clockwise','version':'0.2','author':'Sooner Racing Team / SRT project'};(T/'ui/ui_track.json').write_text(json.dumps(ui,indent=2))
 # Original replay and start cameras using the installed Kunos v3 INI schema.
 def camera_ini(samples,title):
  text='[HEADER]\nVERSION=3\nCAMERA_COUNT='+str(len(samples))+'\nSET_NAME='+title+'\n\n'
@@ -135,7 +143,7 @@ mapim=Image.new('RGBA',(W,H));dr=ImageDraw.Draw(mapim);dr.line(project(path),fil
 im=Image.new('RGB',(W,H),(42,48,53));dr=ImageDraw.Draw(im);dr.line(project(path[:len(q)]),fill=(228,232,231),width=3);dr.line(project(path[len(q)-1:]),fill=(51,181,194),width=3)
 for p in project(cone_pos):dr.ellipse((p[0]-3,p[1]-3,p[0]+3,p[1]+3),fill=(255,126,36))
 for label,s in [('TIMED START',timing[0]),('TIMED FINISH',timing[1])]:p=project([at(s)[0]])[0];dr.text(p,label,fill='white')
-im=im.transpose(Image.Transpose.ROTATE_90);canvas=Image.new('RGB',(1440,650),(24,28,32));im.thumbnail((1380,480));canvas.paste(im,((1440-im.width)//2,105));dd=ImageDraw.Draw(canvas);font=ImageFont.truetype(r'C:\Windows\Fonts\arial.ttf',26);dd.text((32,24),'SRT MICHIGAN AUTOCROSS | MATLAB course transfer',fill='white',font=font);dd.text((32,62),'137 cones | 943.28 m loop | white: event route | cyan: synthetic return',fill=(165,210,215),font=font);dd.text((32,595),'Estimated flat layout. Cone positions preserved; guides are not legal boundaries.',fill=(175,181,186),font=ImageFont.truetype(r'C:\Windows\Fonts\arial.ttf',21));canvas.save(R/'track-overview.png');canvas.resize((1024,462)).save(T/'ui/preview.png')
+im=im.transpose(Image.Transpose.ROTATE_90);canvas=Image.new('RGB',(1440,650),(24,28,32));im.thumbnail((1380,480));canvas.paste(im,((1440-im.width)//2,105));dd=ImageDraw.Draw(canvas);font=ImageFont.truetype(r'C:\Windows\Fonts\arial.ttf',26);dd.text((32,24),'SRT MICHIGAN AUTOCROSS | MATLAB course transfer',fill='white',font=font);dd.text((32,62),'137 cones | 699.87 m timed | return loop UNTIMED',fill=(165,210,215),font=font);dd.text((32,595),'Estimated flat layout. Cone positions preserved; guides are not legal boundaries.',fill=(175,181,186),font=ImageFont.truetype(r'C:\Windows\Fonts\arial.ttf',21));canvas.save(R/'track-overview.png');canvas.resize((1024,462)).save(T/'ui/preview.png')
 
 np.savez_compressed(R/'geometry.npz',**{str(i):m['a'] for i,m in enumerate(meshes)});(R/'mesh-index.json').write_text(json.dumps([{'name':m['name'],'mat':m['mat'],'collision':m['collide']} for m in meshes]));(R/'course-export.json').write_text(json.dumps({'native_to_ac':'[-Z,Y,X] proper rotation, meters','path_ac_m':path.tolist(),'station_m':station.tolist(),'cones':cone_bounds,'timing_stations_m':timing,'helpers':{n:x.tolist() for n,x in helpers}},indent=2))
-report={'source_sha256':hashlib.sha256(raw).hexdigest(),'source_is_survey':False,'upright':sum(c['role']=='upright' for c in C['cones']),'fallen':sum(c['role']!='upright' for c in C['cones']),'original_points':len(q),'closed_points':len(path),'original_length_m':orig_s[-1],'return_length_m':station[-1]-orig_s[-1],'lap_length_m':station[-1],'original_timed_distance_m':timing[1]-timing[0],'mesh_count':len(meshes),'triangles':sum(len(m['a'])//3 for m in meshes),'model_sha256':hashlib.sha256(buf.getvalue()).hexdigest(),'asphalt_bounds_m':[lo.tolist(),hi.tolist()],'limits':['Flat terrain assumed; no survey elevation','Cones visual only; no collisions or penalties, matching MATLAB','4 m paint guides are not course boundaries','Original event estimates and synthetic return retain original uncertainty','AI line supports map and timing; AI pace and racing not validated']};(R/'build-report.json').write_text(json.dumps(report,indent=2));print(json.dumps(report,indent=2))
+report={'source_sha256':hashlib.sha256(raw).hexdigest(),'source_is_survey':False,'upright':sum(c['role']=='upright' for c in C['cones']),'fallen':sum(c['role']!='upright' for c in C['cones']),'original_points':len(q),'closed_points':len(path),'original_length_m':orig_s[-1],'return_length_m':station[-1]-orig_s[-1],'lap_length_m':station[-1],'original_timed_distance_m':timing[1]-timing[0],'timing_mode':'native point-to-point','return_loop_timed':False,'mesh_count':len(meshes),'triangles':sum(len(m['a'])//3 for m in meshes),'model_sha256':hashlib.sha256(buf.getvalue()).hexdigest(),'asphalt_bounds_m':[lo.tolist(),hi.tolist()],'limits':['Flat terrain assumed; no survey elevation','Cones visual only; no collisions or penalties, matching MATLAB','4 m paint guides are not course boundaries','Original event estimates and synthetic return retain original uncertainty','Native point-to-point gates exclude return; driven finish crossing not validated']};(R/'build-report.json').write_text(json.dumps(report,indent=2));print(json.dumps(report,indent=2))

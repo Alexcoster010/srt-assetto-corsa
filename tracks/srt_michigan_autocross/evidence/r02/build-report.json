@@ -1,0 +1,36 @@
+{
+  "source_sha256": "8c048b6b7c52b9c1b2bcf4169a952a3ba71383f9d6a292d097f5aad75871aa4a",
+  "source_is_survey": false,
+  "upright": 93,
+  "fallen": 44,
+  "original_points": 2980,
+  "closed_points": 4365,
+  "original_length_m": 744.6130554109301,
+  "return_length_m": 198.6655680166366,
+  "lap_length_m": 943.2786234275667,
+  "original_timed_distance_m": 699.8706272739435,
+  "timing_mode": "native point-to-point",
+  "return_loop_timed": false,
+  "mesh_count": 7,
+  "triangles": 42694,
+  "model_sha256": "108041a511d3a69a4658f880cb3411ed3409193e071021937dc39c5d588eab70",
+  "asphalt_bounds_m": [
+    [
+      -80.0,
+      0.0,
+      -69.79188045307926
+    ],
+    [
+      29.61833436453202,
+      0.0,
+      397.7853133337932
+    ]
+  ],
+  "limits": [
+    "Flat terrain assumed; no survey elevation",
+    "Cones visual only; no collisions or penalties, matching MATLAB",
+    "4 m paint guides are not course boundaries",
+    "Original event estimates and synthetic return retain original uncertainty",
+    "Native point-to-point gates exclude return; driven finish crossing not validated"
+  ]
+}

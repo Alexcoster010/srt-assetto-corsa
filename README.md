@@ -59,4 +59,4 @@ Vehicle geometry derives from team CAD supplied by the user; livery/dashboard ar
 
 ## MATLAB autocross track
 
-[Download the separate SRT MATLAB autocross track](https://github.com/Alexcoster010/srt-assetto-corsa/releases/tag/autocross-v0.1.0). The 943.28 m training loop preserves all 137 modeled cones and the existing synthetic return. It installs alongside other tracks and does not change the car. [Track guide and source](tracks/srt_michigan_autocross/README.md). Load/spawn verified; driving and timing checks remain pending.
+[Download the separate SRT MATLAB autocross track](https://github.com/Alexcoster010/srt-assetto-corsa/releases/tag/autocross-v0.2.0). The 943.28 m training loop preserves all 137 modeled cones and the existing synthetic return. It installs alongside other tracks and does not change the car. [Track guide and source](tracks/srt_michigan_autocross/README.md). Autocross v0.2 times only the original 699.87 m event, ending at its separate checkered finish; the return loop is untimed. Static gate checks pass; driven crossings remain pending.
