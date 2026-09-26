@@ -1,0 +1,28 @@
+{
+  "reference": "MAD MFT02 v1.42 standard",
+  "reference_acd_sha256": "85a0b4a3043aa8cde398a7ee53ecddb9fb63b290ae83e62c6abee1e8b8315c39",
+  "mad_controls": {
+    "ffmult": "9.721",
+    "steer_assist": "0.8",
+    "steer_lock": "150",
+    "steer_ratio": "4.95",
+    "linear_steer_rod_ratio": "0.001221"
+  },
+  "old_srt": {
+    "FFMULT": 2.5,
+    "STEER_ASSIST": 1.0
+  },
+  "new_srt": {
+    "FFMULT": 0.5,
+    "STEER_ASSIST": 0.8
+  },
+  "gain_scale": 0.2,
+  "preserved": [
+    "SRT steering lock/ratio/linkage geometry",
+    "SRT tire model",
+    "device/global controls"
+  ],
+  "rationale": "Use MAD steering-assist response, not its much larger multiplier; reduce SRT forces after driver reports severe wheel behavior. Forces depend on geometry and tire moments, not solely gain.",
+  "physical_wheel_test": false,
+  "open": "Driver symptom clarification and physical wheel retest; this is a conservative candidate, not a validated universal FFB fix."
+}

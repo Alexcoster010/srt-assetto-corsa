@@ -1,0 +1,9 @@
+{
+  "synthetic_fixed_gate_time_s": 4.299999999999951,
+  "before_start_not_timed": true,
+  "spawn_after_start_not_timed": true,
+  "teleport_rejected": true,
+  "reverse_rejected": true,
+  "frame_gap_rejected": true,
+  "native_in_game_crossings_verified": false
+}

@@ -1,0 +1,13 @@
+{
+  "package_url": "https://acstuff.club/patch/?get=0.2.11",
+  "package_sha256": "0729ccaebb403a7a6d1c40516990da8116cb5f56eea4c1fe0bdd29863a5a6ffb",
+  "package_version": "0.2.11",
+  "sdk_file": "extension/internal/lua-sdk/ac_car_cphys/lib.lua",
+  "verified_api": "ac.setEngineRPMLimit(newValue, scaleInstruments)",
+  "clutch_semantics": "car.clutch 1 = pedal fully depressed",
+  "physics_enable": "car.ini HEADER VERSION=extended-1",
+  "runtime_validated": false,
+  "inertia": 0.06,
+  "limiter_normal": 16000,
+  "limiter_launch": 8000
+}

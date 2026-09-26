@@ -1,0 +1,13 @@
+{
+  "bytes": 50995367,
+  "sha256": "402fbb96022d1b1e8c4ca1e1db8c70f2c45a957eef7c38580db9bb702287544d",
+  "files": 128,
+  "inertia": 0.03,
+  "brakes_max_torque": 1142,
+  "ffmult": 0.5,
+  "steer_assist": 0.8,
+  "wheel_validated": false,
+  "csp_required": "0.2.11",
+  "power_and_gearing_unchanged": true,
+  "launch_bogging_resolved": false
+}

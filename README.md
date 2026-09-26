@@ -1,9 +1,16 @@
 # Sooner Racing Team Assetto Corsa car
 
-[**Download SRT r07**](https://github.com/Alexcoster010/srt-assetto-corsa/releases/download/v0.7.0-prototype/SRT_2025-2026_r07_Assetto_Corsa.zip) � [Release notes](https://github.com/Alexcoster010/srt-assetto-corsa/releases/tag/v0.7.0-prototype) � [Driver feedback and assumptions](DRIVER_FEEDBACK.md)
+[**Download SRT r08**](https://github.com/Alexcoster010/srt-assetto-corsa/releases/download/v0.8.0-prototype/SRT_2025-2026_r08_Assetto_Corsa.zip) | [Release notes](docs/RELEASE_r08.md)
 
-Public development prerelease for original PC Assetto Corsa. Back up your existing `srt27_prototype` folder, then drag the ZIP into Content Manager or merge its `content` folder into the game folder. Select **Sooner Racing Team 2025-2026 No.31**, white/black skin. r06 remains available for rollback.
+**Requires Custom Shaders Patch 0.2.11.** Install [official CSP](https://acstuff.club/patch/) before the car. Back up your existing srt27_prototype folder, then install the full ZIP through Content Manager and restart the session.
 
+r08 reduces engine inertia to **0.03**, doubles brake torque to **1142 Nm**, and adds a clutch-triggered **8000 rpm second-gear two-step**. FFB multiplier reduced from 2.5 to 0.5 after excessive-force feedback, with MAD-reference steering assist 0.8. Wheel testing remains pending. Power curve and gearing are unchanged. **Launch bogging remains unresolved; the 4.3-second target is unverified.**
+
+[Download the separate 75 m acceleration course and timer](https://github.com/Alexcoster010/srt-assetto-corsa/releases/download/v0.8.0-prototype/SRT_Acceleration_75m_v0.3.0.zip). Distinct green start and checkered finish with FINISH 75 M banner. [Track notes](tracks/srt_acceleration_75m/README.md).
+
+For an r08 source rebuild, complete the r07 build below, then run scripts/srt_build_r08.py. The explicit r08 overlay is in revisions/r08/. Historical r07 values below describe the earlier release.
+
+## Historical r07 baseline
 ## r07 changes
 
 - Native gear/RPM/speed dash and eight shift lights.

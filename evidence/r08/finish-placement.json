@@ -1,0 +1,8 @@
+{
+  "start_z_m": 0,
+  "finish_gate_z_m": 75,
+  "checker_leading_edge_z_m": 75,
+  "checker_trailing_edge_z_m": 76,
+  "banner_z_m": 75,
+  "in_game_visual_check": false
+}

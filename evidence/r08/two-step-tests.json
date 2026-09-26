@@ -1,0 +1,10 @@
+{
+  "interpreter": "Lupa 2.6",
+  "stationary_second_clutch_down": 8000,
+  "clutch_release": 16000,
+  "moving_clutch_down": 16000,
+  "restage": true,
+  "leaving_second_restores_normal": true,
+  "reset": 16000,
+  "actual_game_physics_test": false
+}
