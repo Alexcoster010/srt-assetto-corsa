@@ -1,0 +1,77 @@
+{
+  "inertia_kg_m2": {
+    "r06": 0.08,
+    "r07": 0.12,
+    "status": "user-requested tuning candidate; not measured",
+    "free_acceleration_ratio_same_torque": 0.6666666666666667
+  },
+  "gear_speeds_at_14500_kmh": [
+    68.83250136732431,
+    89.04904023045933,
+    105.89615594973542,
+    122.44243031688157,
+    137.86110672715049,
+    150.6983757746235
+  ],
+  "aero": {
+    "status": "preliminary assumed full-car closure, partial CFD force anchor only",
+    "CL_area_m2": 2.6,
+    "CD_area_m2": 1.0,
+    "front_fraction": 0.4,
+    "density_kg_m3": 1.225,
+    "rows": [
+      {
+        "speed_kmh": 48.28032,
+        "downforce_N": 286.42750456320005,
+        "drag_N": 110.16442483200001
+      },
+      {
+        "speed_kmh": 60,
+        "downforce_N": 442.36111111111126,
+        "drag_N": 170.13888888888894
+      },
+      {
+        "speed_kmh": 80,
+        "downforce_N": 786.4197530864199,
+        "drag_N": 302.46913580246917
+      },
+      {
+        "speed_kmh": 100,
+        "downforce_N": 1228.780864197531,
+        "drag_N": 472.6080246913581
+      },
+      {
+        "speed_kmh": 120,
+        "downforce_N": 1769.444444444445,
+        "drag_N": 680.5555555555558
+      }
+    ],
+    "rear_anchor": {
+      "iteration": "GEB-RW-1.2*",
+      "speed_mph": 30,
+      "downforce_raw": 38.58,
+      "drag_raw": 23.88,
+      "units": "lbf inferred from template; requires team confirmation",
+      "description": "starred configuration; rear/body interpretation inferred from earlier starred row, not whole-car CFD"
+    }
+  },
+  "brakes": {
+    "max_torque_parameter_Nm": 571,
+    "front_bias_default": 0.75,
+    "front_per_wheel_assumed_Nm": 428.25,
+    "rear_per_wheel_assumed_Nm": 142.75,
+    "bias_setup_percent": [
+      60,
+      85
+    ],
+    "torque_changed": false
+  },
+  "ffb": {
+    "gain_r06": 1,
+    "gain_r07": 2.5,
+    "steer_assist": 1,
+    "status": "normalization candidate, not a verified zero-FFB fix",
+    "device_specific_settings": false
+  },
+  "track": "Sazuka FS not installed; surface diagnosis pending exact track"
+}

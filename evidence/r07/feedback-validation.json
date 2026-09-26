@@ -1,0 +1,95 @@
+{
+  "dash_bindings_valid": true,
+  "base_game_fonts_present": true,
+  "dash_sightlines": [
+    {
+      "target": [
+        -0.065,
+        0.658,
+        0.6525
+      ],
+      "first_mesh": "SRT_DASH_SCREEN",
+      "distance_m": 0.47535725245263744
+    },
+    {
+      "target": [
+        -0.065,
+        0.68,
+        0.6525
+      ],
+      "first_mesh": "SRT_DASH_SCREEN",
+      "distance_m": 0.46732027279132266
+    },
+    {
+      "target": [
+        -0.065,
+        0.703,
+        0.6525
+      ],
+      "first_mesh": "SRT_DASH_SCREEN",
+      "distance_m": 0.4599019162129422
+    },
+    {
+      "target": [
+        0.0,
+        0.658,
+        0.6525
+      ],
+      "first_mesh": "SRT_DASH_SCREEN",
+      "distance_m": 0.47086108384603653
+    },
+    {
+      "target": [
+        0.0,
+        0.68,
+        0.6525
+      ],
+      "first_mesh": "SRT_DASH_SCREEN",
+      "distance_m": 0.4627460212504263
+    },
+    {
+      "target": [
+        0.0,
+        0.703,
+        0.6525
+      ],
+      "first_mesh": "SRT_DASH_SCREEN",
+      "distance_m": 0.45525313327607086
+    },
+    {
+      "target": [
+        0.065,
+        0.658,
+        0.6525
+      ],
+      "first_mesh": "SRT_DASH_SCREEN",
+      "distance_m": 0.47535725245263744
+    },
+    {
+      "target": [
+        0.065,
+        0.68,
+        0.6525
+      ],
+      "first_mesh": "SRT_DASH_SCREEN",
+      "distance_m": 0.46732027279132266
+    },
+    {
+      "target": [
+        0.065,
+        0.703,
+        0.6525
+      ],
+      "first_mesh": "SRT_DASH_SCREEN",
+      "distance_m": 0.4599019162129422
+    }
+  ],
+  "unchanged": [
+    "power.lut",
+    "drivetrain.ini",
+    "suspensions.ini",
+    "tyres.ini",
+    "brakes.ini"
+  ],
+  "limitations": "Analytical sightlines exclude animated driver. No on-screen dash or wheel-force validation."
+}

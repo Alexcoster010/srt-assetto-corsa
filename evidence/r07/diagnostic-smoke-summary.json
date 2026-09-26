@@ -1,0 +1,19 @@
+{
+  "metadata": {
+    "purpose": "SRT FFB / brake / surface diagnosis; LastFF is game output, not measured wheel torque",
+    "schema": 1,
+    "car": "srt27_prototype",
+    "track": "magione"
+  },
+  "samples": 1561,
+  "moving_corner_samples": 0,
+  "braking_samples": 0,
+  "ffb_test": "insufficient moving corner data",
+  "peak_absolute_game_ffb": null,
+  "fraction_over_0_98": null,
+  "limits": [
+    "LastFF is normalized game output, not measured wheel torque.",
+    "Steering units are the AC API output; .03 is a sampling filter, not a calibration.",
+    "No brake-balance or grass-grip pass is inferred from raw samples."
+  ]
+}

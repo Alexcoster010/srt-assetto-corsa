@@ -1,0 +1,15 @@
+{
+  "matched_tested_files": {
+    "srt27_prototype.kn5": "e49fb21a65ed0e0e0c0f8f7450fea49b87d096d3bf5528db63702fb3739a0aec",
+    "data/engine.ini": "1512fad616d75055ef12f13b28eaf3f7768a598c53099ab7d6d5d7d96d63c829",
+    "data/car.ini": "a737f3eb1a41514770710f9b8ef83d9de81a38e41883f93abb084a011533115d",
+    "data/aero.ini": "b3533035c156ed4a13dacc5922d4622ba918007658c0efe96dfac6ace0171973",
+    "data/setup.ini": "441c2d74f35f922379a1b8d038bd3d83c50d9e8d935df263240564a2ca3786b1",
+    "data/digital_instruments.ini": "033cc2f6bf85a61962fec5774a5e684c978ebb681c179814a8868943703999bb",
+    "data/power.lut": "e213a40570ec285f32cef3967657616c3cb41b6579b3402eb5e5a075e94da38b",
+    "data/drivetrain.ini": "0e6fb44d69852f59b3b1c5c464bdd56256cb3d74a40c7b8f1c70e923880d3288",
+    "sfx/srt27_prototype.bank": "93f2c67540d9294fdd50cf0c6e0e30f2362a576d057bfa1b0e73a1222f72a18b",
+    "sfx/GUIDs.txt": "d3a138867769732195df531da4802797e597def53a9faab51ccf26b48702b497"
+  },
+  "result": "pass"
+}

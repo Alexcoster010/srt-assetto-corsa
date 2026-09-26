@@ -1,42 +1,34 @@
 # Sooner Racing Team Assetto Corsa car
 
-## Download
+[**Download SRT r07**](https://github.com/Alexcoster010/srt-assetto-corsa/releases/download/v0.7.0-prototype/SRT_2025-2026_r07_Assetto_Corsa.zip) � [Release notes](https://github.com/Alexcoster010/srt-assetto-corsa/releases/tag/v0.7.0-prototype) � [Driver feedback and assumptions](DRIVER_FEEDBACK.md)
 
-[**Download the installable SRT r06 ZIP (56 MB)**](https://github.com/Alexcoster010/srt-assetto-corsa/releases/download/v0.6.0-prototype/SRT_2025-2026_r06_Assetto_Corsa.zip) · [Release notes](https://github.com/Alexcoster010/srt-assetto-corsa/releases/tag/v0.6.0-prototype)
+Public development prerelease for original PC Assetto Corsa. Back up your existing `srt27_prototype` folder, then drag the ZIP into Content Manager or merge its `content` folder into the game folder. Select **Sooner Racing Team 2025-2026 No.31**, white/black skin. r06 remains available for rollback.
 
-The repository and release download are public; no GitHub sign-in is required. Drag the ZIP into Content Manager to install; back up an existing `srt27_prototype` car before updating. This is a development prerelease.
+## r07 changes
 
-Current revision: r06. Installed as **Sooner Racing Team 2025-2026 No.31**, internal car ID `srt27_prototype`.
+- Native gear/RPM/speed dash and eight shift lights.
+- Engine inertia increased from 0.08 to 0.12 kg m2; documented ratios and torque map preserved.
+- MAD high-rev reference audio with 20,000-RPM parameter range replaces the previous sound.
+- Preliminary aero using partial team CFD as a force anchor, with explicit balance/drag assumptions.
+- Wheel-independent AC force-feedback gain candidate and adjustable brake bias.
+- Optional SRT Diagnostics app records game FFB, controls, wheel loads and tire behavior. Copy the ZIP's `apps` folder into the game and enable SRT Diagnostics in Python apps settings to use it.
 
-The car has loaded successfully at Magione, with its identity and running engine confirmed through live telemetry. Driving and on-screen cockpit visibility are still awaiting user confirmation; this is not a calibrated digital twin.
+The car loads at Magione with a running engine; AC initialized the dash fonts, shift LEDs, sound bank and aero tables. Driving, live cockpit readability, audio character, physical wheel response, braking and Sazuka FS grass behavior remain unverified. **No zero-FFB or grass-grip fix is claimed.** Read [the driver notes](DRIVER_FEEDBACK.md) before comparing behavior.
 
-## What changed
+## Vehicle and limits
 
-- Native team CAD now supplies frame, nose, wings, cockpit, steering wheel, wheels, and mechanical details. No MAD vehicle mesh remains.
-- White/black number31 appearance follows the public 2026 unveiling photos. Sidepod shells are inferred from photos because matching native sidepod CAD was not found.
-- Tires measure18in outside diameter and6in width; nominal rims remain10in.
-- Engine, power curve, drivetrain, suspension, tire, brake and aero files are unchanged from r05. Automatic shifts now use the engine's RPM range.
-- Camera position is clear of car-body geometry in forward ray tests. Animated driver placement requires an in-game visual check.
-- The0xc000007b startup fault was repaired earlier with the correct VC2013 x64 runtime.
+Native team CAD supplies frame, nose, wings, cockpit, steering wheel, 10-inch rims and mechanical details. Tires measure 18-inch outside diameter and 6-inch width. White/black No.31 appearance follows 2026 photos. Sidepod shells and material boundaries are inferred. No MAD vehicle mesh remains.
 
-## Use
-
-In Content Manager or the game's car selector, choose **Sooner Racing Team 2025-2026 No.31**, skin **SRT No.31 White / Black**. The current practice session is set to Magione. Content Manager is downloaded in the parent engineering project's `tools/content-manager/app` folder.
+The saved CAD master contains design alternatives and a slightly different rear axle position from the selected physics. Visual wheel pivots follow physics. Suspension linkages are static. Driver pose, tire/differential calibration and aero are provisional. The detailed single-LOD model still needs performance testing.
 
 ## Source and rebuild
 
-The repository contains native CAD tessellation, saved component transforms, original build tools, physics configuration and validation records. Python with NumPy and Pillow is required. Native re-export additionally requires SOLIDWORKS. Dimensions at the CAD boundary are meters.
+Python with NumPy and Pillow is required. CAD tessellation and saved assembly transforms are included; native re-export additionally requires SOLIDWORKS. Dimensions are in meters.
 
-In a repository clone, set `SRT_AC_PROJECT` to the clone and `SRT_BASE_CAR` to the existing private installed car folder. Run `scripts/srt_build_r06.py`, followed by `scripts/srt_finish_r06.py`. The output is `release-r06/content/cars/srt27_prototype`. Back up the installed car before copying this output into the game. The baseline supplies local driver/audio assets; these are deliberately not committed. This is a local integration build, not a clean-room redistributable mod installer.
+Set `SRT_AC_PROJECT` to the clone, `SRT_BASE_CAR` to an existing r06/r07 installed SRT car (for ancillary files), and `SRT_MAD_CAR` to your extracted `madformulateam_mft02` car folder. Run `scripts/srt_build_r07.py`, `scripts/srt_finish_r07.py`, `scripts/srt_feedback_r07.py`, then `scripts/srt_validate_kn5_r07.py`, in that order. The output is `release-r07/content/cars/srt27_prototype`. The feedback script must run last among the build steps; it applies the r07 physics and sound changes. Copy `DRIVER_FEEDBACK.md` into the result. Diagnostic app source is in `apps/python/SRT_Diagnostics`.
 
-## Known limits
-
-Sidepods and material boundaries are photo interpretations. The native master has design alternatives and a slightly different rear axle position from the selected physics; wheel pivots follow the physics. One outlying axle occurrence was replaced with a mirrored valid native axle. Suspension linkages are static visual meshes. Driver pose/animation, sound, unmeasured differential mapping/preload, tires and disabled aero remain provisional. Current mesh is a detailed single LOD; frame-rate and handling validation are pending.
-
-## Evidence
-
-`evidence/r06/` contains the build manifest, tire/camera checks, native geometry preview and runtime telemetry. The preview is a software geometry render, not an in-game screenshot. The engineering project retains rollback folders for prior installed revisions.
+`evidence/r07/` contains validation records. The cockpit preview is a software geometry render; runtime digits are not rendered there and it is not an in-game screenshot. Tests do not establish calibrated real-car behavior.
 
 ## Provenance
 
-Vehicle meshes derive from team CAD supplied by the user. Photos were used as references and are not redistributed. Local temporary MAD driver pose/animation and Kunos driver/audio assets are excluded from Git. No public redistribution permission or open-source license is asserted.
+Vehicle geometry derives from team CAD supplied by the user; livery/dashboard are original procedural assets. Temporary MAD driver pose/animations and high-rev audio, plus Kunos driver/ancillary dependencies, remain in the integration package and are not committed as source assets. The sound is not a recording of the SRT Kawasaki engine. No open-source license or rights to third-party assets are asserted.

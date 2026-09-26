@@ -1,0 +1,305 @@
+{
+  "revision": "r07",
+  "geometry": "native team SRT25 assembly parts, with original procedural livery; no donor vehicle meshes",
+  "components": [
+    {
+      "name": "SRT25 Nose-1",
+      "source": "C:\\Users\\14694\\University of Oklahoma\\The Sooner Racing Team - General\\Working Folder\\SRT_25\\5 - Aerodynamics\\6 - Aerodynamic Components\\Nose\\SRT25 Nose.SLDPRT",
+      "triangles": 6164
+    },
+    {
+      "name": "GEB Rear Wing Iter 7(gurney)-1",
+      "source": "C:\\Users\\14694\\University of Oklahoma\\The Sooner Racing Team - General\\Working Folder\\SRT_25\\5 - Aerodynamics\\2 - CFD\\CFD Cad\\Rear Wing\\SolidWorks Parts\\GEB Rear Wing Iter 7(gurney).SLDPRT",
+      "triangles": 23692
+    },
+    {
+      "name": "SRT25 Front Wing-1",
+      "source": "C:\\Users\\14694\\University of Oklahoma\\The Sooner Racing Team - General\\Working Folder\\SRT_25\\5 - Aerodynamics\\6 - Aerodynamic Components\\Front Wing\\SRT25 Front Wing.SLDPRT",
+      "triangles": 5568
+    },
+    {
+      "name": "Undertray Iter 18(Venturi)-1",
+      "source": "C:\\Users\\14694\\University of Oklahoma\\The Sooner Racing Team - General\\Working Folder\\SRT_25\\5 - Aerodynamics\\2 - CFD\\CFD Cad\\Undertray\\SolidWorks Parts\\Undertray Iter 18(Venturi).SLDPRT",
+      "triangles": 1166
+    },
+    {
+      "name": "2221-SKB-Frame-9.0 Luna-1",
+      "source": "C:\\Users\\14694\\University of Oklahoma\\The Sooner Racing Team - General\\Working Folder\\SRT_25\\2 - Chassis\\1 - Frame\\VR3 Order\\VR3 Final Set\\2221-SKB-Frame-9.0 Luna.SLDPRT",
+      "triangles": 64254
+    },
+    {
+      "name": "2426-SKB-FrontUpright-01-1",
+      "source": "C:\\Users\\14694\\University of Oklahoma\\The Sooner Racing Team - General\\Working Folder\\SRT_25\\6 - Master Package\\Everything\\2426-SKB-FrontUpright-01.SLDPRT",
+      "triangles": 3646
+    },
+    {
+      "name": "2426-SKB-Front_Upper_Aft_Linkage_Tube_1-4_28-1",
+      "source": "C:\\Users\\14694\\University of Oklahoma\\The Sooner Racing Team - General\\Working Folder\\SRT_25\\6 - Master Package\\Everything\\2426-SKB-Front_Upper_Aft_Linkage_Tube_1-4_28.SLDPRT",
+      "triangles": 240
+    },
+    {
+      "name": "2426-SKB-Linkage_Tube_1-4_28-2",
+      "source": "C:\\Users\\14694\\University of Oklahoma\\The Sooner Racing Team - General\\Working Folder\\SRT_25\\6 - Master Package\\Everything\\2426-SKB-Linkage_Tube_1-4_28.SLDPRT",
+      "triangles": 224
+    },
+    {
+      "name": "2426-SKB-Front_Lower_Fore_Linkage_Tube_1-4_28-1",
+      "source": "C:\\Users\\14694\\University of Oklahoma\\The Sooner Racing Team - General\\Working Folder\\SRT_25\\6 - Master Package\\Everything\\2426-SKB-Front_Lower_Fore_Linkage_Tube_1-4_28.SLDPRT",
+      "triangles": 224
+    },
+    {
+      "name": "2426-SKB-Front_Upper_Fore_Linkage_Tube_1-4_28-1",
+      "source": "C:\\Users\\14694\\University of Oklahoma\\The Sooner Racing Team - General\\Working Folder\\SRT_25\\6 - Master Package\\Everything\\2426-SKB-Front_Upper_Fore_Linkage_Tube_1-4_28.SLDPRT",
+      "triangles": 248
+    },
+    {
+      "name": "2426-SKB-Tie_Rod_Tube_1-4_28-1",
+      "source": "C:\\Users\\14694\\University of Oklahoma\\The Sooner Racing Team - General\\Working Folder\\SRT_25\\6 - Master Package\\Everything\\2426-SKB-Tie_Rod_Tube_1-4_28.SLDPRT",
+      "triangles": 224
+    },
+    {
+      "name": "2426-SKB-Front_Lower_Fore_Linkage_Tube_1-4_28-3",
+      "source": "C:\\Users\\14694\\University of Oklahoma\\The Sooner Racing Team - General\\Working Folder\\SRT_25\\6 - Master Package\\Everything\\2426-SKB-Front_Lower_Fore_Linkage_Tube_1-4_28.SLDPRT",
+      "triangles": 224
+    },
+    {
+      "name": "2426-SKB-Front_Upper_Aft_Linkage_Tube_1-4_28-3",
+      "source": "C:\\Users\\14694\\University of Oklahoma\\The Sooner Racing Team - General\\Working Folder\\SRT_25\\6 - Master Package\\Everything\\2426-SKB-Front_Upper_Aft_Linkage_Tube_1-4_28.SLDPRT",
+      "triangles": 240
+    },
+    {
+      "name": "2426-SKB-Linkage_Tube_1-4_28-4",
+      "source": "C:\\Users\\14694\\University of Oklahoma\\The Sooner Racing Team - General\\Working Folder\\SRT_25\\6 - Master Package\\Everything\\2426-SKB-Linkage_Tube_1-4_28.SLDPRT",
+      "triangles": 224
+    },
+    {
+      "name": "2426-SKB-Front_Upper_Fore_Linkage_Tube_1-4_28-3",
+      "source": "C:\\Users\\14694\\University of Oklahoma\\The Sooner Racing Team - General\\Working Folder\\SRT_25\\6 - Master Package\\Everything\\2426-SKB-Front_Upper_Fore_Linkage_Tube_1-4_28.SLDPRT",
+      "triangles": 248
+    },
+    {
+      "name": "2426-SKB-Tie_Rod_Tube_1-4_28-3",
+      "source": "C:\\Users\\14694\\University of Oklahoma\\The Sooner Racing Team - General\\Working Folder\\SRT_25\\6 - Master Package\\Everything\\2426-SKB-Tie_Rod_Tube_1-4_28.SLDPRT",
+      "triangles": 224
+    },
+    {
+      "name": "2426-SKB-Front_Pull_Rod_Linkage_Tube_1-4_28-3",
+      "source": "C:\\Users\\14694\\University of Oklahoma\\The Sooner Racing Team - General\\Working Folder\\SRT_25\\6 - Master Package\\Everything\\2426-SKB-Front_Pull_Rod_Linkage_Tube_1-4_28.SLDPRT",
+      "triangles": 240
+    },
+    {
+      "name": "2425_SKB_Side_Head_Restraint-01Mirror^2560-CHS-Master_Package-01-2",
+      "source": "C:\\Users\\14694\\AppData\\Local\\Temp\\swx33832\\VC~~\\2560-CHS-Master_Package-01\\2425_SKB_Side_Head_Restraint-01Mirror^2560-CHS-Master_Package-01.SLDPRT",
+      "triangles": 796
+    },
+    {
+      "name": "2426-SKB-FrontUpright-01-3",
+      "source": "C:\\Users\\14694\\University of Oklahoma\\The Sooner Racing Team - General\\Working Folder\\SRT_25\\6 - Master Package\\Everything\\2426-SKB-FrontUpright-01.SLDPRT",
+      "triangles": 3646
+    },
+    {
+      "name": "2426-SKB-Front_Pull_Rod_Linkage_Tube_1-4_28-1",
+      "source": "C:\\Users\\14694\\University of Oklahoma\\The Sooner Racing Team - General\\Working Folder\\SRT_25\\6 - Master Package\\Everything\\2426-SKB-Front_Pull_Rod_Linkage_Tube_1-4_28.SLDPRT",
+      "triangles": 240
+    },
+    {
+      "name": "2426-SKB-RearUpright-01-Tysons_Laptop-6-2",
+      "source": "C:\\Users\\14694\\University of Oklahoma\\The Sooner Racing Team - General\\Working Folder\\SRT_25\\6 - Master Package\\Everything\\2426-SKB-RearUpright-01-Tysons_Laptop-6.SLDPRT",
+      "triangles": 5232
+    },
+    {
+      "name": "2326-MLB-Upper_Steering_Column-01-1",
+      "source": "C:\\Users\\14694\\University of Oklahoma\\The Sooner Racing Team - General\\Working Folder\\SRT_25\\6 - Master Package\\Everything\\2326-MLB-Upper_Steering_Column-01.SLDPRT",
+      "triangles": 1938
+    },
+    {
+      "name": "Copy of 2025-SMM-SteeringWheelAssembly-1^2560-CHS-Master_Package-01-1/1925-SMM-SteeringWheelPaddlesV5-3^Copy of 2025-SMM-SteeringWheelAssembly-1_2560-CHS-Master_Package-01-1",
+      "source": "C:\\Users\\14694\\AppData\\Local\\Temp\\swx33832\\VC~~\\2997272573\\1925-SMM-SteeringWheelPaddlesV5-3^Copy of 2025-SMM-SteeringWheelAssembly-1_2560-CHS-Master_Package-01.SLDPRT",
+      "triangles": 780
+    },
+    {
+      "name": "Copy of 2025-SMM-SteeringWheelAssembly-1^2560-CHS-Master_Package-01-1/1925-SMM-QRE1QuickRelease-1^Copy of 2025-SMM-SteeringWheelAssembly-1_2560-CHS-Master_Package-01-1",
+      "source": "C:\\Users\\14694\\AppData\\Local\\Temp\\swx33832\\VC~~\\2997272573\\1925-SMM-QRE1QuickRelease-1^Copy of 2025-SMM-SteeringWheelAssembly-1_2560-CHS-Master_Package-01.SLDPRT",
+      "triangles": 4264
+    },
+    {
+      "name": "Copy of 2025-SMM-SteeringWheelAssembly-1^2560-CHS-Master_Package-01-1/1925-SMM-SteeringWheelPaddleMount-1^Copy of 2025-SMM-SteeringWheelAssembly-1_2560-CHS-Master_Package-01-1",
+      "source": "C:\\Users\\14694\\AppData\\Local\\Temp\\swx33832\\VC~~\\2997272573\\1925-SMM-SteeringWheelPaddleMount-1^Copy of 2025-SMM-SteeringWheelAssembly-1_2560-CHS-Master_Package-01.SLDPRT",
+      "triangles": 1838
+    },
+    {
+      "name": "Copy of 2025-SMM-SteeringWheelAssembly-1^2560-CHS-Master_Package-01-1/2025-SMM-SteeringWheel-1^Copy of 2025-SMM-SteeringWheelAssembly-1_2560-CHS-Master_Package-01-1",
+      "source": "C:\\Users\\14694\\AppData\\Local\\Temp\\swx33832\\VC~~\\2997272573\\2025-SMM-SteeringWheel-1^Copy of 2025-SMM-SteeringWheelAssembly-1_2560-CHS-Master_Package-01.SLDPRT",
+      "triangles": 6992
+    },
+    {
+      "name": "Copy of 2025-SMM-SteeringWheelAssembly-1^2560-CHS-Master_Package-01-1/1925-SMM-SteeringWheelButtonsShort-01^Copy of 2025-SMM-SteeringWheelAssembly-1_2560-CHS-Master_Package-01-5",
+      "source": "C:\\Users\\14694\\AppData\\Local\\Temp\\swx33832\\VC~~\\2997272573\\1925-SMM-SteeringWheelButtonsShort-01^Copy of 2025-SMM-SteeringWheelAssembly-1_2560-CHS-Master_Package-01.SLDPRT",
+      "triangles": 586
+    },
+    {
+      "name": "Copy of 2025-SMM-SteeringWheelAssembly-1^2560-CHS-Master_Package-01-1/1925-SMM-SteeringWheelButtonsShort-01^Copy of 2025-SMM-SteeringWheelAssembly-1_2560-CHS-Master_Package-01-3",
+      "source": "C:\\Users\\14694\\AppData\\Local\\Temp\\swx33832\\VC~~\\2997272573\\1925-SMM-SteeringWheelButtonsShort-01^Copy of 2025-SMM-SteeringWheelAssembly-1_2560-CHS-Master_Package-01.SLDPRT",
+      "triangles": 586
+    },
+    {
+      "name": "Copy of 2025-SMM-SteeringWheelAssembly-1^2560-CHS-Master_Package-01-1/1925-SMM-SteeringWheelButtonsShort-01^Copy of 2025-SMM-SteeringWheelAssembly-1_2560-CHS-Master_Package-01-1",
+      "source": "C:\\Users\\14694\\AppData\\Local\\Temp\\swx33832\\VC~~\\2997272573\\1925-SMM-SteeringWheelButtonsShort-01^Copy of 2025-SMM-SteeringWheelAssembly-1_2560-CHS-Master_Package-01.SLDPRT",
+      "triangles": 586
+    },
+    {
+      "name": "Copy of 2025-SMM-SteeringWheelAssembly-1^2560-CHS-Master_Package-01-1/1925-SMM-SteeringWheelButtonsShort-01^Copy of 2025-SMM-SteeringWheelAssembly-1_2560-CHS-Master_Package-01-6",
+      "source": "C:\\Users\\14694\\AppData\\Local\\Temp\\swx33832\\VC~~\\2997272573\\1925-SMM-SteeringWheelButtonsShort-01^Copy of 2025-SMM-SteeringWheelAssembly-1_2560-CHS-Master_Package-01.SLDPRT",
+      "triangles": 586
+    },
+    {
+      "name": "Copy of 2025-SMM-SteeringWheelAssembly-1^2560-CHS-Master_Package-01-1/1925-SMM-SteeringWheelButtonsShort-01^Copy of 2025-SMM-SteeringWheelAssembly-1_2560-CHS-Master_Package-01-2",
+      "source": "C:\\Users\\14694\\AppData\\Local\\Temp\\swx33832\\VC~~\\2997272573\\1925-SMM-SteeringWheelButtonsShort-01^Copy of 2025-SMM-SteeringWheelAssembly-1_2560-CHS-Master_Package-01.SLDPRT",
+      "triangles": 586
+    },
+    {
+      "name": "Copy of 2025-SMM-SteeringWheelAssembly-1^2560-CHS-Master_Package-01-1/1925-SMM-SteeringWheelButtonsShort-01^Copy of 2025-SMM-SteeringWheelAssembly-1_2560-CHS-Master_Package-01-4",
+      "source": "C:\\Users\\14694\\AppData\\Local\\Temp\\swx33832\\VC~~\\2997272573\\1925-SMM-SteeringWheelButtonsShort-01^Copy of 2025-SMM-SteeringWheelAssembly-1_2560-CHS-Master_Package-01.SLDPRT",
+      "triangles": 586
+    },
+    {
+      "name": "2424_SKB_Middle_Steering_Column-01^2560-CHS-Master_Package-01-1",
+      "source": "C:\\Users\\14694\\AppData\\Local\\Temp\\swx33832\\VC~~\\2560-CHS-Master_Package-01\\2424_SKB_Middle_Steering_Column-01^2560-CHS-Master_Package-01.SLDPRT",
+      "triangles": 192
+    },
+    {
+      "name": "2221-SKB-Frame_As_Surface-9.0-1",
+      "source": "C:\\Users\\14694\\University of Oklahoma\\The Sooner Racing Team - General\\Working Folder\\SRT_25\\6 - Master Package\\Everything\\2221-SKB-Frame_As_Surface-9.0.SLDPRT",
+      "triangles": 540
+    },
+    {
+      "name": "2425-SKB_Engine_Bay_Closeout-01^2560-CHS-Master_Package-01-1",
+      "source": "C:\\Users\\14694\\AppData\\Local\\Temp\\swx33832\\VC~~\\2560-CHS-Master_Package-01\\2425-SKB_Engine_Bay_Closeout-01^2560-CHS-Master_Package-01.SLDPRT",
+      "triangles": 28
+    },
+    {
+      "name": "2425-SKB-Mid_Closeout-01^2560-CHS-Master_Package-01-1",
+      "source": "C:\\Users\\14694\\AppData\\Local\\Temp\\swx33832\\VC~~\\2560-CHS-Master_Package-01\\2425-SKB-Mid_Closeout-01^2560-CHS-Master_Package-01.SLDPRT",
+      "triangles": 28
+    },
+    {
+      "name": "2425-SKB-Front_Closeout-01^2560-CHS-Master_Package-01-1",
+      "source": "C:\\Users\\14694\\AppData\\Local\\Temp\\swx33832\\VC~~\\2560-CHS-Master_Package-01\\2425-SKB-Front_Closeout-01^2560-CHS-Master_Package-01.SLDPRT",
+      "triangles": 12
+    },
+    {
+      "name": "2425-SKB-Seat-01-1",
+      "source": "C:\\Users\\14694\\University of Oklahoma\\The Sooner Racing Team - General\\Working Folder\\SRT_25\\6 - Master Package\\Everything\\2425-SKB-Seat-01.SLDPRT",
+      "triangles": 31036
+    },
+    {
+      "name": "2425_SKB_Side_Head_Restraint-01^2420-SKB-Chassis_Master_Package-01-1",
+      "source": "C:\\Users\\14694\\University of Oklahoma\\The Sooner Racing Team - General\\Working Folder\\SRT_25\\6 - Master Package\\Everything\\2425_SKB_Side_Head_Restraint-01^2420-SKB-Chassis_Master_Package-01.SLDPRT",
+      "triangles": 756
+    },
+    {
+      "name": "2225-JWC-Head_Restraint-02^2560-CHS-Master_Package-01-1",
+      "source": "C:\\Users\\14694\\AppData\\Local\\Temp\\swx33832\\VC~~\\2560-CHS-Master_Package-01\\2225-JWC-Head_Restraint-02^2560-CHS-Master_Package-01.SLDPRT",
+      "triangles": 706
+    },
+    {
+      "name": "2021-SRT-Kawasaki_636-02-1",
+      "source": "C:\\Users\\14694\\University of Oklahoma\\The Sooner Racing Team - General\\Working Folder\\SRT_25\\6 - Master Package\\Everything\\2021-SRT-Kawasaki_636-02.SLDPRT",
+      "triangles": 293076
+    },
+    {
+      "name": "2433-SKB-Drexler_Diff_Very_Simple-1",
+      "source": "C:\\Users\\14694\\University of Oklahoma\\The Sooner Racing Team - General\\Working Folder\\SRT_25\\6 - Master Package\\Everything\\2433-SKB-Drexler_Diff_Very_Simple.SLDPRT",
+      "triangles": 11248
+    },
+    {
+      "name": "17 inch RCV Axle-1",
+      "source": "C:\\Users\\14694\\University of Oklahoma\\The Sooner Racing Team - General\\Working Folder\\SRT_25\\6 - Master Package\\Everything\\17 inch RCV Axle.SLDPRT",
+      "triangles": 2368
+    },
+    {
+      "name": "Exhaust-1",
+      "source": "C:\\Users\\14694\\University of Oklahoma\\The Sooner Racing Team - General\\Working Folder\\SRT_25\\6 - Master Package\\Everything\\Exhaust.SLDPRT",
+      "triangles": 5776
+    },
+    {
+      "name": "Assem3-1/2232-JMC-Kawasaki636Header-2-1",
+      "source": "C:\\Users\\14694\\University of Oklahoma\\The Sooner Racing Team - General\\Working Folder\\SRT_25\\6 - Master Package\\Everything\\2232-JMC-Kawasaki636Header-2.SLDPRT",
+      "triangles": 90382
+    },
+    {
+      "name": "2410-SKB-Oil_Pan-01-1",
+      "source": "C:\\Users\\14694\\University of Oklahoma\\The Sooner Racing Team - General\\Working Folder\\SRT_25\\6 - Master Package\\Everything\\2410-SKB-Oil_Pan-01.SLDPRT",
+      "triangles": 5080
+    },
+    {
+      "name": "Copy of FAN SHROUD^2560-CHS-Master_Package-01-1",
+      "source": "C:\\Users\\14694\\AppData\\Local\\Temp\\swx33832\\VC~~\\2560-CHS-Master_Package-01\\Copy of FAN SHROUD^2560-CHS-Master_Package-01.SLDPRT",
+      "triangles": 4522
+    },
+    {
+      "name": "Rear Bellcrank-1",
+      "source": "C:\\Users\\14694\\University of Oklahoma\\The Sooner Racing Team - General\\Working Folder\\SRT_25\\2 - Chassis\\6 - Chassis Mechanical\\Corners\\Rear\\Rear (2025)\\Bellcranks\\Rear Bellcrank.SLDPRT",
+      "triangles": 728
+    },
+    {
+      "name": "Firewall Remake - Top-1",
+      "source": "C:\\Users\\14694\\University of Oklahoma\\The Sooner Racing Team - General\\Working Folder\\SRT_25\\2 - Chassis\\5 - Ergonomics\\Firewall\\Remake\\Firewall Remake - Top.SLDPRT",
+      "triangles": 1452
+    },
+    {
+      "name": "Firewall Remake - Bottom-1",
+      "source": "C:\\Users\\14694\\University of Oklahoma\\The Sooner Racing Team - General\\Working Folder\\SRT_25\\2 - Chassis\\5 - Ergonomics\\Firewall\\Remake\\Firewall Remake - Bottom.SLDPRT",
+      "triangles": 140
+    },
+    {
+      "name": "Mirror2426-SKB-RearUpright-01-Tysons_Laptop-6-3",
+      "source": "C:\\Users\\14694\\University of Oklahoma\\The Sooner Racing Team - General\\Working Folder\\SRT_25\\6 - Master Package\\Everything\\Mirror2426-SKB-RearUpright-01-Tysons_Laptop-6.SLDPRT",
+      "triangles": 5246
+    },
+    {
+      "name": "Rear Bellcrank-2",
+      "source": "C:\\Users\\14694\\University of Oklahoma\\The Sooner Racing Team - General\\Working Folder\\SRT_25\\2 - Chassis\\6 - Chassis Mechanical\\Corners\\Rear\\Rear (2025)\\Bellcranks\\Rear Bellcrank.SLDPRT",
+      "triangles": 728
+    }
+  ],
+  "excluded": [
+    "Copy of 2025-SMM-SteeringWheelAssembly-1^2560-CHS-Master_Package-01-1/Copy of 1925-SMM-94945A205NylockForPaddlesV5-5^Copy of 2025-SMM-SteeringWheelAssembly-1_2560-CHS-Master_Package-01-1",
+    "Firewall-1",
+    "19 inch RCV Axle-1",
+    "Assem3-1/Exhaust Flange-1",
+    "Assem2-1/Seat Model - V2-1"
+  ],
+  "mesh_count": 120,
+  "triangle_count": 830572,
+  "bytes": 117789365,
+  "transform_note": "Native assembly X lateral,Y up,Z forward; translated -0.090043m Z to align front axle. Native frame shape unscaled. Wheels use active physics locations. Native saved rear axle differs by about18mm from selected physics wheelbase.",
+  "runtime_test": "Passed load/idle only; see runtime-status.json",
+  "limits": [
+    "Sidepod shells are photo-derived approximations; native sidepod CAD was not located.",
+    "Native part selection and color zoning inferred from public 2026 unveiling photo; not an as-built survey.",
+    "Source assembly contains suppressed design alternatives. Original file states preserved.",
+    "Visual suspension linkages remain static. Driver pose and MAD reference audio remain provisional."
+  ],
+  "baseline_physics_before_feedback": {
+    "engine.ini": "cbaaee6792f762cd9765ca4b01414269e59a7acdebbae2f23d0fc0ef7044fd67",
+    "power.lut": "e213a40570ec285f32cef3967657616c3cb41b6579b3402eb5e5a075e94da38b",
+    "drivetrain.ini": "0e6fb44d69852f59b3b1c5c464bdd56256cb3d74a40c7b8f1c70e923880d3288",
+    "suspensions.ini": "a0d87097492db8b783dd50f9b8e21f294ad27c5c7f6d4ad71839f7fcb5bf9b43",
+    "tyres.ini": "eb9472a88002fed0fe479631ee7dc71256ae955894a186f0f140733223ab0f17",
+    "brakes.ini": "4cda43643872cf8996f57ed640d624a45296d5820e179a2aa7630782c32eeb8c",
+    "aero.ini": "4c0052373e6434aae4b17f8c39548b93185527c375b53f65b1445f3236666bec"
+  },
+  "final_physics_sha256": {
+    "engine.ini": "1512fad616d75055ef12f13b28eaf3f7768a598c53099ab7d6d5d7d96d63c829",
+    "power.lut": "e213a40570ec285f32cef3967657616c3cb41b6579b3402eb5e5a075e94da38b",
+    "drivetrain.ini": "0e6fb44d69852f59b3b1c5c464bdd56256cb3d74a40c7b8f1c70e923880d3288",
+    "suspensions.ini": "a0d87097492db8b783dd50f9b8e21f294ad27c5c7f6d4ad71839f7fcb5bf9b43",
+    "tyres.ini": "eb9472a88002fed0fe479631ee7dc71256ae955894a186f0f140733223ab0f17",
+    "brakes.ini": "4cda43643872cf8996f57ed640d624a45296d5820e179a2aa7630782c32eeb8c",
+    "aero.ini": "b3533035c156ed4a13dacc5922d4622ba918007658c0efe96dfac6ace0171973",
+    "car.ini": "a737f3eb1a41514770710f9b8ef83d9de81a38e41883f93abb084a011533115d",
+    "setup.ini": "441c2d74f35f922379a1b8d038bd3d83c50d9e8d935df263240564a2ca3786b1",
+    "digital_instruments.ini": "033cc2f6bf85a61962fec5774a5e684c978ebb681c179814a8868943703999bb"
+  }
+}

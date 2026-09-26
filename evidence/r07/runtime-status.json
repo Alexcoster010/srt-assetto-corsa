@@ -1,0 +1,19 @@
+{
+  "revision": "r07",
+  "time_utc": "2026-09-26T07:16:04.190861+00:00",
+  "car": "srt27_prototype",
+  "status": 2,
+  "rpm": 1400,
+  "speed_kmh": 0.11630348861217499,
+  "dashboard_fonts_loaded": true,
+  "led_initializations": 8,
+  "sound_bank_loaded": true,
+  "aero_luts_loaded": true,
+  "diagnostic_live_samples": 2683,
+  "errors": [
+    "ERROR: Python [ERROR] File apps/python/acnotify/acnotify.py not found"
+  ],
+  "driving": "not verified: idle-only runtime test",
+  "physical_ffb": "not verified: no wheel test",
+  "model_sha256": "e49fb21a65ed0e0e0c0f8f7450fea49b87d096d3bf5528db63702fb3739a0aec"
+}
