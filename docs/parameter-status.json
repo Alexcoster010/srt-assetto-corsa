@@ -1,5 +1,5 @@
 {
-  "maturity": "source prototype only; NOT installable or game tested",
+  "maturity": "Installed native-CAD prototype; runtime loading and idle verified; driving/visual validation pending",
   "engine": {
     "selected": "r35 corrected high-RPM sensitivity map, as used by r39",
     "comparison": "r31 fit-only selected k=0.625",
@@ -49,8 +49,8 @@
     "shift_clutch_and_gearbox_inertias": "provisional; 80 ms upshift borrowed from r39 simulation, not physical validation"
   },
   "chassis": {
-    "selected_mass_profile": null,
-    "reason": "r39 Joseph acceleration and live r43 have different masses and engine paths; final chassis baseline not silently chosen",
+    "selected_mass_profile": "live_r43_config_kg",
+    "reason": "Selected in r03;280.5kg dry baseline plus AC fuel mass.",
     "available_profiles": {
       "Joseph_accel_r39_kg": 299.915275044,
       "live_r43_config_kg": 280.5
@@ -60,27 +60,25 @@
     "front_fraction_target": 0.48,
     "cg_height_assumed_m": 0.3,
     "wheel_radius_m": 0.2286,
-    "inertia": "not exported; sprung inertia and mass partition must be resolved before equivalent AC box conversion",
+    "inertia": "r03 equivalent box dimensions retained",
     "aero": "live baseline disabled; no MAD aero copied",
-    "tire": "LC0 source model exists; no AC tire fit performed"
+    "tire": "LC0-derived peak approximation with flat thermal/wear LUTs; uncalibrated"
   },
   "MAD_reference": {
     "model": "MFT02 standard 2022, not EVO/hybrid",
     "version": "1.42",
     "url": "https://www.overtake.gg/downloads/mad-formula-team-mft02.58653/",
-    "download_status": "login required; not downloaded",
-    "asset_reuse": false,
-    "reference_use": "published approach and features only; no physics or mesh unpacked"
+    "download_status": "User supplied official v1.42 archive",
+    "asset_reuse": true,
+    "reference_use": "r05 donor vehicle mesh replaced by SRT native CAD in r06; temporary local driver pose/animations remain"
   },
   "missing_for_first_drive": [
-    "Assetto Corsa installation/SDK",
-    "complete car.ini with resolved mass and sprung inertia",
-    "complete suspensions.ini and kinematic validation",
-    "tyres.ini and fitted LUTs",
-    "brakes/aero and ancillary data",
-    "original KN5 model and collider",
-    "sound bank and event bindings",
-    "driver/cameras/LOD/skin assets",
-    "in-game load/drive validation"
+    "User cockpit visibility and driving/control confirmation"
+  ],
+  "accuracy_limits": [
+    "sidepod surfaces and material zoning from photos",
+    "CAD axle19 occurrence extended below ground; replaced with reflected valid17-inch visual axle",
+    "2025 master saved wheelbase differs about18mm from selected physics; wheel pivots follow physics",
+    "provisional differential, tires, zero aero and borrowed engine audio are not calibrated digital-twin behavior"
   ]
 }

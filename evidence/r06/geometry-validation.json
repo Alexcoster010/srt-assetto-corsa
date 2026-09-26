@@ -1,0 +1,70 @@
+{
+  "tire_envelopes": {
+    "WHEEL_LF": {
+      "width_m": 0.1524000000000001,
+      "outside_diameter_y_m": 0.4572,
+      "outside_diameter_z_m": 0.45719999999999994
+    },
+    "WHEEL_RF": {
+      "width_m": 0.1524000000000001,
+      "outside_diameter_y_m": 0.4572,
+      "outside_diameter_z_m": 0.45719999999999994
+    },
+    "WHEEL_LR": {
+      "width_m": 0.1524000000000001,
+      "outside_diameter_y_m": 0.4572,
+      "outside_diameter_z_m": 0.45720000000000005
+    },
+    "WHEEL_RR": {
+      "width_m": 0.1524000000000001,
+      "outside_diameter_y_m": 0.4572,
+      "outside_diameter_z_m": 0.45720000000000005
+    }
+  },
+  "camera_position_model_m": [
+    0.0,
+    0.84,
+    0.22
+  ],
+  "camera_body_rays": [
+    {
+      "yaw_deg": 0,
+      "pitch_deg": 0,
+      "nearest_body_hit_m": null
+    },
+    {
+      "yaw_deg": -5,
+      "pitch_deg": 0,
+      "nearest_body_hit_m": null
+    },
+    {
+      "yaw_deg": 5,
+      "pitch_deg": 0,
+      "nearest_body_hit_m": null
+    },
+    {
+      "yaw_deg": 0,
+      "pitch_deg": -5,
+      "nearest_body_hit_m": null
+    },
+    {
+      "yaw_deg": 0,
+      "pitch_deg": 5,
+      "nearest_body_hit_m": null
+    }
+  ],
+  "camera_limit": "Checks car geometry only; animated driver visibility and in-game framing still require visual confirmation.",
+  "finite_geometry": true,
+  "geometry_bounds_m": [
+    [
+      -0.6638613266046932,
+      0.0,
+      -0.994689448135376
+    ],
+    [
+      0.6638613266046932,
+      1.1683999918874146,
+      1.9728496753997802
+    ]
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "revision": "r06",
+  "observed_at": "2026-09-25T21:31:13.345209",
+  "car": "srt27_prototype",
+  "display_name": "Sooner Racing Team 2025-2026 No.31",
+  "load": "pass: Magione, native car mesh loaded, status2 and1400rpm observed",
+  "driving": "not verified; no available game UI-control tool; user confirmation requested",
+  "camera": "car-body forward ray checks pass; animated driver and screen framing await user confirmation",
+  "geometry": "830440 triangles; native frame, nose, wings, seat, steering wheel, wheels and mechanical components; photo-derived sidepod shells",
+  "tire": "all four measured 0.4572m OD and0.1524m width",
+  "engine_diff": "r05 engine, power, drivetrain, suspension, tires, brakes and aero byte-identical",
+  "assumptions": [
+    "sidepod surfaces and material zoning from photos",
+    "CAD axle19 occurrence extended below ground; replaced with reflected valid17-inch visual axle",
+    "2025 master saved wheelbase differs about18mm from selected physics; wheel pivots follow physics",
+    "provisional differential, tires, zero aero and borrowed engine audio are not calibrated digital-twin behavior"
+  ],
+  "repository": "https://github.com/Alexcoster010/srt-assetto-corsa",
+  "final_model_sha256": "0ef4b6697b6133f8332b612774829686655bb9e20ec5ab253a0f194005e16f76",
+  "final_model_binary_checks": "pass:119 nodes, unique names, exact EOF, finite vertices and four18x6in tire envelopes",
+  "setup_note": "Fixed-ratio setup entries added; drivetrain ratios unchanged",
+  "final_reload": {
+    "time": "2026-09-25T21:36:32.661172",
+    "car": "srt27_prototype",
+    "status": 2,
+    "rpm": 1400,
+    "speed_kmh": 0.09561050683259964,
+    "installed_model_sha256": "0ef4b6697b6133f8332b612774829686655bb9e20ec5ab253a0f194005e16f76",
+    "car_configuration_errors": [],
+    "unrelated_optional_system_messages": [
+      "ERROR: Python [ERROR] File apps/python/acnotify/acnotify.py not found",
+      "ERROR: TrackIR DLL Location key not present"
+    ]
+  }
+}

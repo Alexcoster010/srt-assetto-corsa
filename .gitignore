@@ -10,3 +10,5 @@ build/
 *.zip
 *.exe
 *.dll
+
+release-r06/
