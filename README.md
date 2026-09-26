@@ -1,5 +1,11 @@
 # Sooner Racing Team Assetto Corsa car
 
+## Download
+
+[**Download the installable SRT r06 ZIP (56 MB)**](https://github.com/Alexcoster010/srt-assetto-corsa/releases/download/v0.6.0-prototype/SRT_2025-2026_r06_Assetto_Corsa.zip) · [Release notes](https://github.com/Alexcoster010/srt-assetto-corsa/releases/tag/v0.6.0-prototype)
+
+Sign in to GitHub with access to this private repository. Drag the ZIP into Content Manager to install; back up an existing `srt27_prototype` car before updating. This is a development prerelease.
+
 Current revision: r06. Installed as **Sooner Racing Team 2025-2026 No.31**, internal car ID `srt27_prototype`.
 
 The car has loaded successfully at Magione, with its identity and running engine confirmed through live telemetry. Driving and on-screen cockpit visibility are still awaiting user confirmation; this is not a calibrated digital twin.
