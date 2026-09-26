@@ -1,0 +1,19 @@
+{
+  "all_generated_files_match": true,
+  "files": {
+    "ai/fast_lane.ai": "7557395ecc49033a19c5be95072c0452371c09b4122c9c8053ec2744b9bbd08b",
+    "data/cameras.ini": "88da2c06e0655ffa80b235856842473594f21e726ec331b5f9a6183d4ceda7ed",
+    "data/cameras_start.ini": "512b545940d1574bfee6a02445bd14157be1f94c43d0f6052b65df5c71fb6045",
+    "data/groove.ini": "39cc732a0c24163b2b6170a11d25dbcf1815a38636b516b7062ff1b978c56066",
+    "data/ideal_line.ai": "7557395ecc49033a19c5be95072c0452371c09b4122c9c8053ec2744b9bbd08b",
+    "data/lighting.ini": "78dd564ec3db9a7ab72e4a17d4dafe2e1a0178b08e678615f7bcaadc411ebf75",
+    "data/map.ini": "363c301715580b80ad212393c47b8ad4d1cdeb7757cf017a05a99174b623ee65",
+    "data/surfaces.ini": "701313547457a4cf42529e796e05be0622b624c922c885f4abcfdf4f8e1f22dd",
+    "map.png": "2e3b275ff15623575d0299510f745ae96297744d17967d78f827a98d252c3a23",
+    "models.ini": "71aa1e918894be0353bc87b6ee13fe986e80a68dce94d95483f23499c38bdc7a",
+    "srt_michigan_autocross.kn5": "46f7ec02ab4859ad9b632617963980e80e23d2416b7c111108ec31d4dee0cfb9",
+    "ui/outline.png": "1b7faf0d76faaa05af54ed670e8d1c3f1bf5875bfdee25c0bb368c446e59e677",
+    "ui/preview.png": "a9bdcc8b65f11259e3ab22443c22550cd67808d1bf39807335865084c2f85709",
+    "ui/ui_track.json": "ac7f17dcbe265690f0b204562678e5dbe7187e72620833ae32d1723e16318d24"
+  }
+}

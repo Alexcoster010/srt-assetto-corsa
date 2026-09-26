@@ -1,0 +1,33 @@
+{
+  "track": "srt_michigan_autocross",
+  "car": "srt27_prototype",
+  "status": 2,
+  "rpm": 1400,
+  "heading_rad": 1.0836500052846532e-07,
+  "wheel_load_N": [
+    663.5410766601562,
+    663.5389404296875,
+    720.8885498046875,
+    720.8870239257812
+  ],
+  "configured_sectors": 3,
+  "time_utc": "2026-09-26T14:43:05.997054+00:00",
+  "reference_spline_loaded": true,
+  "limits": [
+    "Idle load and spawn test only; no driven lap",
+    "On-screen visuals, sector crossings, AI driving and full-course traversal unverified"
+  ],
+  "messages_to_review": [
+    "WARNING: TRACK :: NO POSITION DATA FOUND",
+    "ERROR: Python [ERROR] File apps/python/acnotify/acnotify.py not found",
+    "ERROR: TrackIR DLL Location key not present",
+    "ERROR: NO S"
+  ],
+  "message_note": "Missing acnotify and TrackIR also occur on the car test. Track position-data warning and truncated NO STAT message remain nonfatal unresolved log findings; no clean-log claim.",
+  "settled_position_m": [
+    1.8536097456944844e-07,
+    0.29286351799964905,
+    0.20802444219589233
+  ],
+  "model_sha256": "46f7ec02ab4859ad9b632617963980e80e23d2416b7c111108ec31d4dee0cfb9"
+}

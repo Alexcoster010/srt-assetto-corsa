@@ -1,0 +1,23 @@
+{
+  "kn5_exact_eof": true,
+  "unique_nodes": true,
+  "model_sha256": "46f7ec02ab4859ad9b632617963980e80e23d2416b7c111108ec31d4dee0cfb9",
+  "physics_meshes": {
+    "1ASPHALT": {
+      "triangles": 512,
+      "normal_up": true
+    },
+    "1GRASS": {
+      "triangles": 8,
+      "normal_up": true
+    }
+  },
+  "helpers": 9,
+  "source_cones": 137,
+  "maximum_cone_coordinate_error_m": 0.0,
+  "original_path_round_trip": true,
+  "closed_route_exact": true,
+  "AI_points": 4364,
+  "AI_exact_eof": true,
+  "limits": "Static checks only; no driving, lap crossing or cone-penalty validation."
+}

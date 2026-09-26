@@ -32,3 +32,8 @@ Set `SRT_AC_PROJECT` to the clone, `SRT_BASE_CAR` to an existing r06/r07 install
 ## Provenance
 
 Vehicle geometry derives from team CAD supplied by the user; livery/dashboard are original procedural assets. Temporary MAD driver pose/animations and high-rev audio, plus Kunos driver/ancillary dependencies, remain in the integration package and are not committed as source assets. The sound is not a recording of the SRT Kawasaki engine. No open-source license or rights to third-party assets are asserted.
+
+
+## MATLAB autocross track
+
+[Download the separate SRT MATLAB autocross track](https://github.com/Alexcoster010/srt-assetto-corsa/releases/tag/autocross-v0.1.0). The 943.28 m training loop preserves all 137 modeled cones and the existing synthetic return. It installs alongside other tracks and does not change the car. [Track guide and source](tracks/srt_michigan_autocross/README.md). Load/spawn verified; driving and timing checks remain pending.
