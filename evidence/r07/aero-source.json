@@ -1,0 +1,9 @@
+{
+  "source_relative": "SRT_26/5 - Aerodynamics/3 - CFD/Individual component results.xlsx",
+  "sha256": "bf29b22f8bc6cc40c81d1a3dd457b912898302f5fb40a5fe92125bd33b51a06c",
+  "extraction": "Read-only XLSX XML; no workbook modifications",
+  "anchor": "sheet2 row6 GEB-RW-1.2*: downforce38.58, drag23.88, speed30mph",
+  "unit_basis": "sheet2 row2 labels force columns 0.0lbf; numeric rows omit units",
+  "configuration_basis": "sheet2 row4 starred version says with headreast, body; extrapolating the star meaning to row6 is an assumption",
+  "full_car_results": false
+}
