@@ -1,5 +1,13 @@
 # Sooner Racing Team Assetto Corsa car
 
+[**Download SRT r10 - stronger engine braking**](https://github.com/Alexcoster010/srt-assetto-corsa/releases/download/v0.10.0-prototype/SRT_2025-2026_r10_Assetto_Corsa.zip) | [r10 release notes](docs/RELEASE_r10.md)
+
+**Requires CSP 0.2.11.** Off-throttle engine-braking reference torque increased 25% to 29.6875 Nm. Retains r09 increased low-end torque and all other settings. User liked the test; measured calibration and physical wheel validation remain pending. Restart the session after installing.
+
+Build r09 as below, then run scripts/srt_build_r10.py. r09 remains available for rollback.
+
+## Previous r09 and baseline documentation
+
 [**Download SRT r09 - increased torque**](https://github.com/Alexcoster010/srt-assetto-corsa/releases/download/v0.9.0-prototype/SRT_2025-2026_r09_Assetto_Corsa.zip) | [r09 release notes](docs/RELEASE_r09.md)
 
 **Requires CSP 0.2.11.** Provisional +10% torque at 4000-8000 rpm, smoothly back to baseline by 11000. All other r08 physics unchanged, including 0.03 inertia and reduced FFB. This is a driver-test curve, not measured dyno data. No confirmed 4.3 s result or wheel validation. Restart the driving session after installation.

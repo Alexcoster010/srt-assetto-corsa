@@ -1,0 +1,23 @@
+{
+  "name": "Sooner Racing Team 2025-2026 No.31",
+  "brand": "Sooner Racing Team",
+  "class": "race",
+  "country": "USA",
+  "year": 2027,
+  "author": "SRT project",
+  "version": "0.10.0",
+  "description": "r10: 25% stronger engine-braking reference torque, 29.6875 Nm at14500 rpm. Retains r09 increased low-end torque, inertia .03 and reduced FFB. Requires CSP0.2.11. User-liked test tune; measured calibration and wheel validation pending.",
+  "tags": [
+    "FSAE",
+    "SRT",
+    "prototype"
+  ],
+  "specs": {
+    "bhp": "67 bhp",
+    "torque": "36 Nm",
+    "weight": "280.5 kg",
+    "topspeed": "provisional",
+    "acceleration": "unverified",
+    "pwratio": "4.19 kg/hp"
+  }
+}

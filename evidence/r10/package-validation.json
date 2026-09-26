@@ -1,0 +1,10 @@
+{
+  "bytes": 50997559,
+  "sha256": "82f8e270426598215fc1fadcee4f1c532f33c49091c1942e9f193d7321b66106",
+  "files": 130,
+  "only_physics_change": "COAST_REF.TORQUE 23.75 to29.6875 Nm",
+  "inertia": 0.03,
+  "csp_required": "0.2.11",
+  "user_feedback": "likes test behavior",
+  "measured_validation": false
+}

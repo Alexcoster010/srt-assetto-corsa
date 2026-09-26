@@ -1,0 +1,10 @@
+{
+  "old_coast_reference_nm": 23.75,
+  "new_coast_reference_nm": 29.6875,
+  "reference_rpm": 14500,
+  "other_data_files_unchanged": true,
+  "inertia": 0.03,
+  "runtime_tested": false,
+  "session_restarted": false,
+  "installed_sha256": "770b4e988028db1f5fdb62a70bae769ab2fe1919efd1d13a0f40960720736247"
+}
