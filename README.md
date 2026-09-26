@@ -33,3 +33,6 @@ The r35 curve is a loss-inclusive effective torque calibration, not measured cra
 No MAD/Kunos KN5 models, sound banks, packed physics, download archives, or downloaded photographs are committed. The build uses local assets. MAD model credit: Ofitus21 / MAD Formula Team. Reference photos: https://www.linkedin.com/company/sooner-racing-team . Official donor: https://www.overtake.gg/downloads/mad-formula-team-mft02.58653/ .
 
 This repository is private; no public asset redistribution or open-source license is asserted.
+
+## Tire dimensions
+All four visual tire envelopes are normalized to 18 in outside diameter (0.4572 m) and 6 in width (0.1524 m). Physics front/rear radius is 0.2286 m. Nominal rims remain 10 in. Run normalization after every donor visual rebuild; the r05 script now includes it. Updated r05 visuals are installed locally, but the currently running session still needs reloading and r05 game-load/visual checks remain pending.

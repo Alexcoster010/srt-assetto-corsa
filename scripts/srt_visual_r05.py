@@ -117,6 +117,8 @@ for name,ms in groups.items():
  p=helpers[name][:3];base(name,len(ms),p)
  for m in ms:emit(m,p)
 (out/'srt27_prototype.kn5').write_bytes(buf.getvalue())
+from normalize_tires import normalize
+normalize(out/'srt27_prototype.kn5',R/'tire-dimension-check.json')
 # Adapt visual-only settings; preserve physical parameters and data files.
 for n in ['animations','texture']:shutil.copytree(donor/n,out/n,dirs_exist_ok=True)
 shutil.copy2(donor/'driver_base_pos.knh',out/'driver_base_pos.knh')

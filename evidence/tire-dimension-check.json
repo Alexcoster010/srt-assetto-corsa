@@ -1,0 +1,67 @@
+{
+  "wheels": {
+    "WHEEL_RR": {
+      "visual_width_m": 0.1524,
+      "visual_OD_m": 0.4572,
+      "visual_OD_in": 18,
+      "wheel_center_m": [
+        -0.57785,
+        0.2286,
+        -0.59055
+      ],
+      "scale_from_previous": [
+        0.6409727217273803,
+        0.99997596775534,
+        0.9994487336304626
+      ]
+    },
+    "WHEEL_LR": {
+      "visual_width_m": 0.1524,
+      "visual_OD_m": 0.4572,
+      "visual_OD_in": 18,
+      "wheel_center_m": [
+        0.57785,
+        0.2286,
+        -0.59055
+      ],
+      "scale_from_previous": [
+        0.640973083267914,
+        0.99997596775534,
+        0.9994487336304626
+      ]
+    },
+    "WHEEL_LF": {
+      "visual_width_m": 0.1524,
+      "visual_OD_m": 0.4572,
+      "visual_OD_in": 18,
+      "wheel_center_m": [
+        0.57785,
+        0.2286,
+        1.07315
+      ],
+      "scale_from_previous": [
+        0.6408845581862965,
+        0.9999759025740451,
+        0.9994487336304626
+      ]
+    },
+    "WHEEL_RF": {
+      "visual_width_m": 0.1524,
+      "visual_OD_m": 0.4572,
+      "visual_OD_in": 18,
+      "wheel_center_m": [
+        -0.57785,
+        0.2286,
+        1.07315
+      ],
+      "scale_from_previous": [
+        0.640972922583182,
+        0.9999759025740451,
+        0.9994487336304626
+      ]
+    }
+  },
+  "physics_radius_m": 0.2286,
+  "nominal_rim_diameter_in": 10,
+  "note": "Visual tire/rim group normalized to 18x6 envelope. AC rim collision radius convention retained."
+}
