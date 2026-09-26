@@ -1,0 +1,62 @@
+[
+  {
+    "file": "engine-r35.json",
+    "source": "engineering\\srt27-simscape-rebuild\\telemetry-correlation-2026-09-22\\srt27-joseph-model-r39\\maps\\joseph-r35-k0625-highrpm-plus25-engine-map.json",
+    "sha256": "b73cfbab7e3b5a553e7fb2a7110d8257bc7ba0e7de6910746532bd00199a00b4"
+  },
+  {
+    "file": "engine-r31.json",
+    "source": "engineering\\srt27-simscape-rebuild\\telemetry-correlation-2026-09-22\\engine-map-r31\\joseph-k0625-engine-map-r31.json",
+    "sha256": "992f9d20bfc2ed5db4c13d8b750afbb815afbf83e6f201cede7d948151e49236"
+  },
+  {
+    "file": "engine-r39-context.md",
+    "source": "engineering\\srt27-simscape-rebuild\\telemetry-correlation-2026-09-22\\srt27-joseph-model-r39\\README.md",
+    "sha256": "fb7f4d1b1a0e2bdc82998f13175c7c9b8560fdbac3ffaf00bc50f62f8a681b90"
+  },
+  {
+    "file": "engine-r31-calibration.md",
+    "source": "engineering\\srt27-simscape-rebuild\\telemetry-correlation-2026-09-22\\engine-map-r31\\joseph-engine-map-calibration-r31.md",
+    "sha256": "ea374e05207433d46b17d6a50ea9cae3a9a0ee78de8516c1b2be7755e3c1aa33"
+  },
+  {
+    "file": "differential-settings-r43.m",
+    "source": "engineering\\drexler-v2-model-r43-2026-09-25\\drexler_v2_settings_r43.m",
+    "sha256": "89bba60f95749952de584ebb15c7872b102176c4149898f4e72872e1718f02a0"
+  },
+  {
+    "file": "differential-law-r43.m",
+    "source": "engineering\\drexler-v2-model-r43-2026-09-25\\drexler_v2_law_r43.m",
+    "sha256": "a9ada931f1429174d6e2a74822cfe98b9211e80ce3d61d1231b056e565188cba"
+  },
+  {
+    "file": "differential-requirements-r43.md",
+    "source": "engineering\\drexler-v2-model-r43-2026-09-25\\DIFF-MODELING-REQUIREMENTS.md",
+    "sha256": "5544615cc95978481877c317bd3e01b277cf6a104f0f87b906758c17c1609163"
+  },
+  {
+    "file": "differential-report-r43.md",
+    "source": "engineering\\drexler-v2-model-r43-2026-09-25\\IMPLEMENTATION-REPORT.md",
+    "sha256": "f3b0f20e307b70cbf0b7b21ebe323dd62b8e1bbe98b651a1245996744c06810a"
+  },
+  {
+    "file": "geometry-r10.json",
+    "source": "engineering\\srt27-simscape-rebuild\\suspension-r10\\receiving-inputs.json",
+    "sha256": "6d61a279afa80dc3b4ddf47aeb1992b6814e88059037cae1b487d038941e949e"
+  },
+  {
+    "file": "live-car-config.json",
+    "source": "engineering\\srt27-simscape-rebuild\\live-driving\\live-car-config.json",
+    "sha256": "f943441ccbf1102c285e57fc18d4d13545c122b68e9d42de0b3db0e0282a389d"
+  },
+  {
+    "file": "overrun-r30.json",
+    "source": "engineering\\srt27-simscape-rebuild\\live-driving\\live-overrun-r29.json",
+    "sha256": "f21f2eff49590cf1c02252de06e2c03b598354c227fb74278570e813d17f21eb"
+  },
+  {
+    "file": "brake-confirmations.json",
+    "source": "engineering\\srt27-simscape-rebuild\\brake-user-confirmations.json",
+    "sha256": "1612e991ee7c7947ede3c41be078ca2f8c051e221623b56c80dc7441ae7b1848"
+  }
+]

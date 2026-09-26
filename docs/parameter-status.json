@@ -1,0 +1,86 @@
+{
+  "maturity": "source prototype only; NOT installable or game tested",
+  "engine": {
+    "selected": "r35 corrected high-RPM sensitivity map, as used by r39",
+    "comparison": "r31 fit-only selected k=0.625",
+    "basis": "Wheel-power-derived, engine-speed-referenced effective torque; losses already embedded. Not measured crankshaft torque.",
+    "second_loss_multiplier": 1.0,
+    "measured_crank_map": false,
+    "sampled_rpm": [
+      2500,
+      14500
+    ],
+    "idle_torque_1400_Nm": 8,
+    "idle_status": "assumed startability placeholder",
+    "above_14500_policy": "hold endpoint through 16000; unvalidated",
+    "engine_inertia_kg_m2": 0.08,
+    "engine_inertia_status": "assumed placeholder",
+    "time_based_r39_load_multiplier_exported": false,
+    "8000_rpm_launch_floor_exported": false,
+    "overrun": "linear AC COAST_REF approximation at 14500 rpm / 23.75 Nm; unmeasured, not exact source curve"
+  },
+  "differential": {
+    "hardware_drive_ramp_deg": 40,
+    "hardware_coast_ramp_deg": 50,
+    "installed_preload_Nm": null,
+    "r43_reference_K_acc": 0.3,
+    "r43_reference_K_coast": 0.21,
+    "r43_reference_preload_output_difference_Nm": 25,
+    "r43_regularization_rad_s": 0.2,
+    "AC_candidate_power": 0.6,
+    "AC_candidate_coast": 0.42,
+    "AC_candidate_preload_Nm": 25,
+    "AC_equivalence_verified": false,
+    "warning": "60/42 manual figures are theoretical. AC settings are tuning candidates. r43 output-difference preload is not a measured bench preload or an established AC conversion."
+  },
+  "gearing": {
+    "primary": 1.9,
+    "chain": 3.357142857142857,
+    "AC_FINAL": 6.378571428571428,
+    "gears": [
+      2.8461538461538463,
+      2.2,
+      1.85,
+      1.6,
+      1.4210526315789473,
+      1.3
+    ],
+    "reverse": "-3 placeholder, not measured hardware; remove/disable after SDK review",
+    "shift_clutch_and_gearbox_inertias": "provisional; 80 ms upshift borrowed from r39 simulation, not physical validation"
+  },
+  "chassis": {
+    "selected_mass_profile": null,
+    "reason": "r39 Joseph acceleration and live r43 have different masses and engine paths; final chassis baseline not silently chosen",
+    "available_profiles": {
+      "Joseph_accel_r39_kg": 299.915275044,
+      "live_r43_config_kg": 280.5
+    },
+    "wheelbase_m": 1.6637,
+    "track_m": 1.1557,
+    "front_fraction_target": 0.48,
+    "cg_height_assumed_m": 0.3,
+    "wheel_radius_m": 0.2286,
+    "inertia": "not exported; sprung inertia and mass partition must be resolved before equivalent AC box conversion",
+    "aero": "live baseline disabled; no MAD aero copied",
+    "tire": "LC0 source model exists; no AC tire fit performed"
+  },
+  "MAD_reference": {
+    "model": "MFT02 standard 2022, not EVO/hybrid",
+    "version": "1.42",
+    "url": "https://www.overtake.gg/downloads/mad-formula-team-mft02.58653/",
+    "download_status": "login required; not downloaded",
+    "asset_reuse": false,
+    "reference_use": "published approach and features only; no physics or mesh unpacked"
+  },
+  "missing_for_first_drive": [
+    "Assetto Corsa installation/SDK",
+    "complete car.ini with resolved mass and sprung inertia",
+    "complete suspensions.ini and kinematic validation",
+    "tyres.ini and fitted LUTs",
+    "brakes/aero and ancillary data",
+    "original KN5 model and collider",
+    "sound bank and event bindings",
+    "driver/cameras/LOD/skin assets",
+    "in-game load/drive validation"
+  ]
+}

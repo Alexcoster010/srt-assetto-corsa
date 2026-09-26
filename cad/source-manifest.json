@@ -1,0 +1,20 @@
+[
+  {
+    "source": "C:\\Users\\14694\\University of Oklahoma\\The Sooner Racing Team - General\\Working Folder\\SRT_26\\5 - Aerodynamics\\3 - CFD\\CAD\\Nose\\Nose 25.SLDPRT",
+    "copy": "C:\\Users\\14694\\Documents\\ChatGPT\\SRT\\engineering\\srt-assetto-corsa\\cad-r05\\nose.SLDPRT",
+    "sha256": "97bf3d36276d2b18180ec0261191ad3878238f33443645c78d6305cd4d54d8a7",
+    "export_status": "COMPLETED"
+  },
+  {
+    "source": "C:\\Users\\14694\\University of Oklahoma\\The Sooner Racing Team - General\\Working Folder\\SRT_26\\5 - Aerodynamics\\3 - CFD\\CAD\\Front Wing\\SRT25 Front Wing Final CFD.SLDPRT",
+    "copy": "C:\\Users\\14694\\Documents\\ChatGPT\\SRT\\engineering\\srt-assetto-corsa\\cad-r05\\front-wing.SLDPRT",
+    "sha256": "4857dbc996f6be63dfde03e2af93189bb2169934acb64fce99ef0b286de64409",
+    "export_status": "COMPLETED"
+  },
+  {
+    "source": "C:\\Users\\14694\\University of Oklahoma\\The Sooner Racing Team - General\\Working Folder\\SRT_26\\5 - Aerodynamics\\3 - CFD\\CAD\\Rear Wing\\SRT25 rear Wing Final CFD.SLDPRT",
+    "copy": "C:\\Users\\14694\\Documents\\ChatGPT\\SRT\\engineering\\srt-assetto-corsa\\cad-r05\\rear-wing.SLDPRT",
+    "sha256": "3f72ebbd65f862285587b5f652860e68e03c0e076b3e59d25b0b450f8b9013a1",
+    "export_status": "COMPLETED"
+  }
+]

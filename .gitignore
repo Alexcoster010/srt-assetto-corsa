@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.env
+local/
+build/
+*.kn5
+*.bank
+*.acd
+*.rar
+*.zip
+*.exe
+*.dll

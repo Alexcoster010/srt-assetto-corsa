@@ -1,0 +1,8 @@
+{
+  "windows_startup": "fixed: removed backed-up x86 app-local VC120 DLLs; installed signed Steam VC2013 x64 runtime exit0",
+  "game_load": "pass: SRT at Magione, shared memory live status2, engine1400rpm",
+  "driving_validation": "not completed",
+  "camera": "forward adjustment and helmet/HANS/suit cockpit hide applied; reload required; visual confirmation pending",
+  "collider": "SDK-style intermediate transform required, GL shader, version5",
+  "MAD_visuals": "download pending"
+}

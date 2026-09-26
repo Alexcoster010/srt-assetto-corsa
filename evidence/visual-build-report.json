@@ -1,0 +1,90 @@
+{
+  "revision": "r05",
+  "reference": "https://www.linkedin.com/company/sooner-racing-team",
+  "reference_car": "2025-2026 white/black; actual Nose25 and SRT25 final CFD wing CAD with assembly placement",
+  "donor": "standard IC madformulateam_mft02 from user downloaded v1.42 archive",
+  "donor_nodes_read": 691,
+  "meshes_written": 254,
+  "removed_donor_meshes": [
+    "Nosecone",
+    "RWUpperFlaps",
+    "RWUpperFlaps",
+    "RWLowerFlap",
+    "RWEndplateLeft",
+    "RWEndplateRight",
+    "FWSecondaryCenter",
+    "FWFlapCenter",
+    "FWEndplateL",
+    "FWTabs",
+    "FWSupports",
+    "NoseWings",
+    "RW Main Flap",
+    "FWMainFlap",
+    "Wheel CF001",
+    "Up Lever001",
+    "Steer Column001",
+    "Quik Release001",
+    "Paddle supports001",
+    "Handles001",
+    "Down Lever001",
+    "Clutch lever travel001",
+    "Clutch lever bite001",
+    "ButtonBase001",
+    "Button_008",
+    "Button_009",
+    "Button_010",
+    "Button_011",
+    "Rim_BlurRR",
+    "Rim_BlurLR",
+    "FW fins",
+    "Rim_BlurLF",
+    "Rim_BlurRF",
+    "FWEndplateR",
+    "RWTertiaryFlap",
+    "RWSecondaryFlap",
+    "FWTertiaryOuter",
+    "FWSecondaryOuter"
+  ],
+  "donor_world_to_srt_visual": [
+    [
+      0.9877777777777778,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.9853448275862068,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0768284789644014,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.5132726306407767,
+      1.0
+    ]
+  ],
+  "physics_sha256_unchanged": {
+    "engine.ini": "cbaaee6792f762cd9765ca4b01414269e59a7acdebbae2f23d0fc0ef7044fd67",
+    "power.lut": "e213a40570ec285f32cef3967657616c3cb41b6579b3402eb5e5a075e94da38b",
+    "drivetrain.ini": "0e6fb44d69852f59b3b1c5c464bdd56256cb3d74a40c7b8f1c70e923880d3288",
+    "suspensions.ini": "a0d87097492db8b783dd50f9b8e21f294ad27c5c7f6d4ad71839f7fcb5bf9b43",
+    "tyres.ini": "eb9472a88002fed0fe479631ee7dc71256ae955894a186f0f140733223ab0f17",
+    "brakes.ini": "4cda43643872cf8996f57ed640d624a45296d5820e179a2aa7630782c32eeb8c",
+    "aero.ini": "4c0052373e6434aae4b17f8c39548b93185527c375b53f65b1445f3236666bec"
+  },
+  "limits": [
+    "Nose and wings from native SRT CAD; retained MAD body and cockpit are temporary. SRT25 wings were suppressed in CFD study: chosen using supplied year and photo silhouette; as-built verification pending.",
+    "driver pose, visual suspension and moving details require visual validation",
+    "single visual LOD temporary",
+    "no public redistribution; preserve MAD attribution"
+  ],
+  "game_test": "pending"
+}
