@@ -1,2 +1,3 @@
 *.bin binary
 *.png binary
+tracks/srt_michigan_autocross/reference-copies/* -text
