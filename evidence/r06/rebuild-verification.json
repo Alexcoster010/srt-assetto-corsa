@@ -1,0 +1,10 @@
+{
+  "checked_at": "2026-09-25T21:38:51.409689",
+  "result": "PASS",
+  "repository_script_rebuild_sha256": "0ef4b6697b6133f8332b612774829686655bb9e20ec5ab253a0f194005e16f76",
+  "installed_model_sha256": "0ef4b6697b6133f8332b612774829686655bb9e20ec5ab253a0f194005e16f76",
+  "native_binary_exports_checked": 48,
+  "game_model_nodes": 119,
+  "car_configuration_errors_on_final_load": 0,
+  "limits": "Integration rebuild uses existing local installed car for driver/audio ancillary assets; no actual driving/cockpit visual check performed."
+}
