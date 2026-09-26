@@ -1,0 +1,23 @@
+{
+  "name": "Sooner Racing Team 2025-2026 No.31",
+  "brand": "Sooner Racing Team",
+  "class": "race",
+  "country": "USA",
+  "year": 2027,
+  "author": "SRT project",
+  "version": "0.9.0",
+  "description": "r09 provisional low-end torque test: +10% at 4000-8000 rpm, smoothly back to baseline by 11000. Requires CSP 0.2.11. Inertia 0.03, brakes 1142 Nm, FFB 0.5/assist 0.8 and gearing unchanged from r08. Real-engine calibration and driver wheel validation pending.",
+  "tags": [
+    "FSAE",
+    "SRT",
+    "prototype"
+  ],
+  "specs": {
+    "bhp": "67 bhp",
+    "torque": "36 Nm",
+    "weight": "280.5 kg",
+    "topspeed": "provisional",
+    "acceleration": "unverified",
+    "pwratio": "4.19 kg/hp"
+  }
+}

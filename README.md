@@ -1,5 +1,13 @@
 # Sooner Racing Team Assetto Corsa car
 
+[**Download SRT r09 - increased torque**](https://github.com/Alexcoster010/srt-assetto-corsa/releases/download/v0.9.0-prototype/SRT_2025-2026_r09_Assetto_Corsa.zip) | [r09 release notes](docs/RELEASE_r09.md)
+
+**Requires CSP 0.2.11.** Provisional +10% torque at 4000-8000 rpm, smoothly back to baseline by 11000. All other r08 physics unchanged, including 0.03 inertia and reduced FFB. This is a driver-test curve, not measured dyno data. No confirmed 4.3 s result or wheel validation. Restart the driving session after installation.
+
+Build r08 as below, then run scripts/srt_build_r09.py for the r09 overlay. r08 remains available for comparison and rollback.
+
+## Previous r08 version and baseline documentation
+
 [**Download SRT r08**](https://github.com/Alexcoster010/srt-assetto-corsa/releases/download/v0.8.0-prototype/SRT_2025-2026_r08_Assetto_Corsa.zip) | [Release notes](docs/RELEASE_r08.md)
 
 **Requires Custom Shaders Patch 0.2.11.** Install [official CSP](https://acstuff.club/patch/) before the car. Back up your existing srt27_prototype folder, then install the full ZIP through Content Manager and restart the session.

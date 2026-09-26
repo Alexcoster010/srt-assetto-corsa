@@ -1,0 +1,10 @@
+{
+  "bytes": 50996271,
+  "sha256": "ad1c9856ee6a91bced2fde534397333e07ec49d027053a1e28edbdda2d14b215",
+  "files": 129,
+  "only_physics_change": "power.lut",
+  "torque_boost": "+10% 4000-8000, tapered to baseline at11000",
+  "inertia": 0.03,
+  "csp_required": "0.2.11",
+  "measured_engine_curve": false
+}
