@@ -1,5 +1,13 @@
 # Sooner Racing Team Assetto Corsa car
 
+[**Download r11 - reduced grip and FFB1.5**](https://github.com/Alexcoster010/srt-assetto-corsa/releases/download/v0.11.0-prototype/SRT_2025-2026_r11_Assetto_Corsa.zip) | [Release notes](docs/RELEASE_r11.md)
+
+Requires CSP0.2.11. Lateral grip is81% of original; FFB multiplier1.5 with steering assist0.8. Experimental: FFB investigation and driver validation remain open. Optional fixed autocross and acceleration tracks are included as separate release assets.
+
+Build r10 first, then run scripts/srt_build_r11.py.
+
+## Earlier releases and build instructions
+
 [**Download SRT r10 - stronger engine braking**](https://github.com/Alexcoster010/srt-assetto-corsa/releases/download/v0.10.0-prototype/SRT_2025-2026_r10_Assetto_Corsa.zip) | [r10 release notes](docs/RELEASE_r10.md)
 
 **Requires CSP 0.2.11.** Off-throttle engine-braking reference torque increased 25% to 29.6875 Nm. Retains r09 increased low-end torque and all other settings. User liked the test; measured calibration and physical wheel validation remain pending. Restart the session after installing.

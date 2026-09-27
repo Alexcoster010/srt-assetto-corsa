@@ -1,0 +1,15 @@
+{
+  "bytes": 50999248,
+  "sha256": "97fc23368e2dee3a2e5c092b37602e7868327e0479c78c2cd20e7a6ee6851706",
+  "files": 131,
+  "physics_changes": [
+    "car.ini",
+    "tyres.ini"
+  ],
+  "ffmult": 1.5,
+  "steer_assist": 0.8,
+  "lateral_grip_multiplier": 0.81,
+  "longitudinal_parameters_unchanged": true,
+  "csp_required": "0.2.11",
+  "physical_wheel_validated": false
+}
