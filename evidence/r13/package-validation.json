@@ -1,0 +1,10 @@
+{
+  "bytes": 51001290,
+  "sha256": "3da027480d3b807501b3be3f71273bfbd07bf8d1b68592606ec8444e18f95346",
+  "max_brake_torque_nm": 800,
+  "front_share": 0.75,
+  "physics_changes": [
+    "brakes.ini"
+  ],
+  "driver_validated": false
+}
