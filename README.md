@@ -1,8 +1,8 @@
 # Sooner Racing Team Assetto Corsa car
 
-[**Download r13 — reduced brake torque**](https://github.com/Alexcoster010/srt-assetto-corsa/releases/download/v0.13.0-prototype/SRT_2025-2026_r13_Assetto_Corsa.zip) | [Release notes](docs/RELEASE_r13.md)
+[**Download r13 revised — 600 Nm brakes**](https://github.com/Alexcoster010/srt-assetto-corsa/releases/download/v0.13.0-prototype/SRT_2025-2026_r13_Assetto_Corsa_600Nm.zip) | [Release notes](docs/RELEASE_r13.md)
 
-Full car; requires CSP0.2.11. Brake torque800Nm, front share75%; all other r12 physics unchanged. Driver validation pending. Build r12 then scripts/srt_build_r13.py for source rebuild.
+Full car; requires CSP0.2.11. Revised r13 (UI0.13.1): brake torque600Nm, front share75%; all other r12 physics unchanged. Driver validation pending. Build r12 then scripts/srt_build_r13.py for source rebuild.
 
 ## Earlier releases
 

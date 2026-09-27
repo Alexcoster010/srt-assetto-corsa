@@ -5,8 +5,8 @@
   "country": "USA",
   "year": 2027,
   "author": "SRT project",
-  "version": "0.13.0",
-  "description": "r13: brake torque reduced to800Nm to ease immediate lockup. Front share75%. R12 tires and FFB7.8/assist1.0 retained. Requires CSP0.2.11. Driver validation pending.",
+  "version": "0.13.1",
+  "description": "r13 revised: 600Nm brake torque, front share75%. Replaces initial800Nm r13. Tires, FFB and other physics unchanged. CSP0.2.11 required. Driver validation pending.",
   "tags": [
     "FSAE",
     "SRT",
