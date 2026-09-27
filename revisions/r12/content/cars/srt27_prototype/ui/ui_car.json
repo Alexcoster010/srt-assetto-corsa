@@ -1,0 +1,23 @@
+{
+  "name": "Sooner Racing Team 2025-2026 No.31",
+  "brand": "Sooner Racing Team",
+  "class": "race",
+  "country": "USA",
+  "year": 2027,
+  "author": "SRT project",
+  "version": "0.12.0",
+  "description": "r12: tire tune targeting1.8g lateral /1.2g braking (local tests1.798/1.178g); MFTC3-based FFB7.8 /assist1.0. Requires CSP0.2.11. Prototype: physical-wheel and driver validation pending.",
+  "tags": [
+    "FSAE",
+    "SRT",
+    "prototype"
+  ],
+  "specs": {
+    "bhp": "67 bhp",
+    "torque": "36 Nm",
+    "weight": "280.5 kg",
+    "topspeed": "provisional",
+    "acceleration": "unverified",
+    "pwratio": "4.19 kg/hp"
+  }
+}

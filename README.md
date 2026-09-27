@@ -1,5 +1,13 @@
 # Sooner Racing Team Assetto Corsa car
 
+[**Download r12 — tire tune and MFTC3-based FFB**](https://github.com/Alexcoster010/srt-assetto-corsa/releases/download/v0.12.0-prototype/SRT_2025-2026_r12_Assetto_Corsa.zip) | [Release notes](docs/RELEASE_r12.md)
+
+Full car; requires CSP0.2.11. Includes FFB7.8 /assist1.0 and the tire candidate measured at1.798g lateral /1.178g braking in local tests. Driver validation pending. Acceleration1.04g is an ideal estimate, not the measured result. Optional tracks are unchanged.
+
+Source rebuild: build r11, then run scripts/srt_build_r12.py.
+
+## Earlier releases
+
 [**Download r11 - reduced grip and FFB1.5**](https://github.com/Alexcoster010/srt-assetto-corsa/releases/download/v0.11.0-prototype/SRT_2025-2026_r11_Assetto_Corsa.zip) | [Release notes](docs/RELEASE_r11.md)
 
 Requires CSP0.2.11. Lateral grip is81% of original; FFB multiplier1.5 with steering assist0.8. Experimental: FFB investigation and driver validation remain open. Optional fixed autocross and acceleration tracks are included as separate release assets.

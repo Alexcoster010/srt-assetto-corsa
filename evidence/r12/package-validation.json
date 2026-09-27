@@ -1,0 +1,18 @@
+{
+  "bytes": 51001169,
+  "sha256": "6bf85c5c27a8593641f2386a7cfafce0dfe07389176f2f6110aed9415ad0b270",
+  "files": 132,
+  "ffmult": 7.8,
+  "steer_assist": 1.0,
+  "lateral_multiplier_original": 0.7533,
+  "longitudinal_multiplier_r11": 0.7,
+  "csp_required": "0.2.11",
+  "physical_wheel_validated": false,
+  "changes_from_r11": [
+    "content/cars/srt27_prototype/data/car.ini",
+    "content/cars/srt27_prototype/data/tyres.ini",
+    "content/cars/srt27_prototype/ui/ui_car.json",
+    "SRT_INSTALL_README.md",
+    "SRT_PACKAGE_MANIFEST.json"
+  ]
+}

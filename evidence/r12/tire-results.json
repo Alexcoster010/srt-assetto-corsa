@@ -1,0 +1,177 @@
+{
+  "targets": {
+    "lateral": 1.8,
+    "acceleration_requested": 1.1,
+    "acceleration_accepted_ideal_upper_bound": 1.04,
+    "braking": 1.2
+  },
+  "measured_peak_025s_g": {
+    "lateral": 1.7982746230231221,
+    "braking": 1.1776729689704,
+    "acceleration": 0.47269043624401
+  },
+  "acceptance": "Lateral and braking within 5% for these test conditions; acceleration upper-bound estimate accepted by user, not measured achievement.",
+  "candidate": "tyres-candidate-b.ini",
+  "changes": [
+    {
+      "section": "FRONT",
+      "key": "DY0",
+      "before": "1.91877695681555",
+      "after": "1.7844625698384615"
+    },
+    {
+      "section": "FRONT",
+      "key": "DX0",
+      "before": "2.324978750166111",
+      "after": "1.6274851251162779"
+    },
+    {
+      "section": "FRONT",
+      "key": "DX_REF",
+      "before": "2.324978750166111",
+      "after": "1.6274851251162779"
+    },
+    {
+      "section": "FRONT",
+      "key": "DY_REF",
+      "before": "1.91877695681555",
+      "after": "1.7844625698384615"
+    },
+    {
+      "section": "REAR",
+      "key": "DY0",
+      "before": "1.91684668905017",
+      "after": "1.7826674208166582"
+    },
+    {
+      "section": "REAR",
+      "key": "DX0",
+      "before": "2.332480312679954",
+      "after": "1.6327362188759675"
+    },
+    {
+      "section": "REAR",
+      "key": "DX_REF",
+      "before": "2.332480312679954",
+      "after": "1.6327362188759675"
+    },
+    {
+      "section": "REAR",
+      "key": "DY_REF",
+      "before": "1.91684668905017",
+      "after": "1.7826674208166582"
+    }
+  ],
+  "results": {
+    "baseline-limit-lateral.csv": {
+      "file": "baseline-limit-lateral.csv",
+      "sha256": "5a0563bbd8356a73a4a639ad61bd66b9aed37b8ea3f4b209e793ad9ce497bc92",
+      "last_t": 31.983966891188,
+      "lateral": {
+        "g": 1.9270069334242,
+        "t": 21.660160075407,
+        "speed_kmh": 52.52573521931967,
+        "samples": 9,
+        "front_slip_ratio": -0.0017826645505718112,
+        "min_wheel_load_n": 44.451511383057
+      }
+    },
+    "baseline-longitudinal-v3.csv": {
+      "file": "baseline-longitudinal-v3.csv",
+      "sha256": "58c7ce9364185c6edb436eef68294b6bceabc5c76b5c23e4adfb448ef8925bd2",
+      "last_t": 14.990776997991,
+      "acceleration": {
+        "g": 0.4747155209382367,
+        "t": 7.1408321936615,
+        "speed_kmh": 59.99779976738822,
+        "samples": 9,
+        "front_slip_ratio": -0.00043002791870902556,
+        "min_wheel_load_n": 610.97882080078
+      },
+      "braking": {
+        "g": 1.4562777131795874,
+        "t": 9.9659776962362,
+        "speed_kmh": 43.67172765731825,
+        "samples": 8,
+        "front_slip_ratio": -0.5554946968331935,
+        "min_wheel_load_n": 402.05514526367
+      }
+    },
+    "candidate-a-lateral.csv": {
+      "file": "candidate-a-lateral.csv",
+      "sha256": "da89e1932ef65b3a912c9d7a0f0954a729e6a0e4cb0099784b5ba3ff886b97e4",
+      "last_t": 31.993647518568,
+      "lateral": {
+        "g": 1.7925247351328446,
+        "t": 20.299884404521,
+        "speed_kmh": 52.47741232977967,
+        "samples": 9,
+        "front_slip_ratio": -0.0018447707795227668,
+        "min_wheel_load_n": 51.49097442627
+      }
+    },
+    "candidate-a-longitudinal.csv": {
+      "file": "candidate-a-longitudinal.csv",
+      "sha256": "e2041ea36f9072d9359dab725961ae22f4c245072c699fa58d280949785fb01a",
+      "last_t": 15.001512383576,
+      "acceleration": {
+        "g": 0.4717705100774775,
+        "t": 7.1166718876921,
+        "speed_kmh": 59.6888127326965,
+        "samples": 8,
+        "front_slip_ratio": -0.0005011583416489888,
+        "min_wheel_load_n": 611.01123046875
+      },
+      "braking": {
+        "g": 1.1241604089737,
+        "t": 10.351528988685,
+        "speed_kmh": 32.40260759989411,
+        "samples": 9,
+        "front_slip_ratio": -1.0,
+        "min_wheel_load_n": 474.18109130859
+      }
+    },
+    "candidate-b-lateral.csv": {
+      "file": "candidate-b-lateral.csv",
+      "sha256": "f18750f101b99be081de8bae62e5f635d30a113e5654a7009b917dd55031895b",
+      "last_t": 31.984976216685,
+      "lateral": {
+        "g": 1.7982746230231221,
+        "t": 20.565569517668,
+        "speed_kmh": 52.46221245659722,
+        "samples": 9,
+        "front_slip_ratio": -0.0019006771294193111,
+        "min_wheel_load_n": 50.954502105713
+      }
+    },
+    "candidate-b-longitudinal.csv": {
+      "file": "candidate-b-longitudinal.csv",
+      "sha256": "26c02945bfc4cbdf1a603fde68da8687ea107e658be6b68520e264faef71587d",
+      "last_t": 14.996045689099,
+      "acceleration": {
+        "g": 0.47269043624401,
+        "t": 7.1187529917806,
+        "speed_kmh": 59.597513198852695,
+        "samples": 10,
+        "front_slip_ratio": -0.000490294478368015,
+        "min_wheel_load_n": 610.40191650391
+      },
+      "braking": {
+        "g": 1.1776729689704,
+        "t": 10.311641087756,
+        "speed_kmh": 32.28163973490389,
+        "samples": 9,
+        "front_slip_ratio": -1.0,
+        "min_wheel_load_n": 456.91027832031
+      }
+    }
+  },
+  "limitations": [
+    "No full combined-slip g-g envelope or tire test data fit.",
+    "Aero changes the attainable peak with speed; these parameters cannot guarantee a universal acceleration cap.",
+    "SRT temperature-performance LUT is currently constant 1: no realistic temperature grip degradation.",
+    "Braking ramp includes wheel lock, so further pedal/bias optimization may change observed peak."
+  ],
+  "published": false,
+  "unchanged_files_verified": true
+}

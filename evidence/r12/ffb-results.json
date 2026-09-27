@@ -1,0 +1,206 @@
+{
+  "candidate": {
+    "ffmult": 7.8,
+    "steer_assist": 1.0,
+    "based_on": "public r11",
+    "published": false
+  },
+  "comparisons": {
+    "40-target": {
+      "output_ratio_srt_to_mad": 0.9267619870560925,
+      "force_per_lateral_g_ratio_srt_to_mad": 0.9068683892307289
+    },
+    "60-target": {
+      "output_ratio_srt_to_mad": 1.138711715247954,
+      "force_per_lateral_g_ratio_srt_to_mad": 0.9208221353361135
+    }
+  },
+  "runs": {
+    "srt27_prototype-mftc3-comparison.csv": {
+      "sha256": "2a914cc7768c9ab27f3e7d3dedc8e4380c36b5da223071d49c3306ede0ec27ed",
+      "last_t": 35.979983015219,
+      "stages": {
+        "0": {
+          "samples": 166,
+          "rms": {
+            "ffb_final": 0.00014472099604213463,
+            "lat_g": 1.0000000031711e-30,
+            "speed_kmh": 0.0025327252555546187,
+            "steer_torque": 0.6207865704086455,
+            "steer_deg": 7.313330465513513
+          },
+          "peak_ffb": 0.00016527083062101,
+          "clipping_samples": 0
+        },
+        "1": {
+          "samples": 163,
+          "rms": {
+            "ffb_final": 0.026821986286421254,
+            "lat_g": 0.10437910942971676,
+            "speed_kmh": 38.472297537904595,
+            "steer_torque": 1.5330263634840855,
+            "steer_deg": 7.258080871053162
+          },
+          "peak_ffb": 0.037240736186504,
+          "clipping_samples": 0
+        }
+      }
+    },
+    "madformulateam_mftc3-mftc3-comparison.csv": {
+      "sha256": "2acc6a2a1fde0eb25219e2f00051c7ba48c7eaedb19b02cd0d2130b750cfa913",
+      "last_t": 35.996719492134,
+      "stages": {
+        "0": {
+          "samples": 164,
+          "rms": {
+            "ffb_final": 7.188308773139924e-05,
+            "lat_g": 1.0000000031711001e-30,
+            "speed_kmh": 0.005031806008573016,
+            "steer_torque": 0.18363170235448206,
+            "steer_deg": 7.290408940762588
+          },
+          "peak_ffb": 0.00014948735770304,
+          "clipping_samples": 0
+        },
+        "1": {
+          "samples": 161,
+          "rms": {
+            "ffb_final": 0.08858859390724944,
+            "lat_g": 0.15879466290125313,
+            "speed_kmh": 36.56656415772505,
+            "steer_torque": 2.9764492698727167,
+            "steer_deg": 7.3027810691340465
+          },
+          "peak_ffb": 0.12577594816685,
+          "clipping_samples": 0
+        }
+      }
+    },
+    "srt27_prototype-linear-1p5.csv": {
+      "sha256": "890c9c67cf1cc5887b3742b7e2a42cb4f0eac73ced887360b99ffd1cf7f59577",
+      "last_t": 35.971368003462,
+      "stages": {
+        "0": {
+          "samples": 173,
+          "rms": {
+            "ffb_final": 2.2542060194665033e-05,
+            "lat_g": 1.0000000031711e-30,
+            "speed_kmh": 0.0005250928304960055,
+            "steer_torque": 0.3028061609753555,
+            "steer_deg": 7.277597709882858
+          },
+          "peak_ffb": 3.8071928429417e-05,
+          "clipping_samples": 0
+        },
+        "1": {
+          "samples": 173,
+          "rms": {
+            "ffb_final": 0.011168559825892516,
+            "lat_g": 0.10459668239798058,
+            "speed_kmh": 38.47193899044083,
+            "steer_torque": 1.5356573744720146,
+            "steer_deg": 7.273650734081483
+          },
+          "peak_ffb": 0.016356155276299,
+          "clipping_samples": 0
+        }
+      }
+    },
+    "srt27_prototype-candidate-matched-load.csv": {
+      "sha256": "6a2b90b2f1ecbb2dabceaf3e1a57f3ac1c1502197bc1ff06747795d56d1cf5f1",
+      "last_t": 35.99647307297,
+      "stages": {
+        "0": {
+          "samples": 168,
+          "rms": {
+            "ffb_final": 0.0002543882709071652,
+            "lat_g": 1.0000000031711e-30,
+            "speed_kmh": 0.00250194204794159,
+            "steer_torque": 0.6150936522921614,
+            "steer_deg": 10.971906904137812
+          },
+          "peak_ffb": 0.00032814679434523,
+          "clipping_samples": 0
+        },
+        "1": {
+          "samples": 173,
+          "rms": {
+            "ffb_final": 0.08210054131998773,
+            "lat_g": 0.1622780759279784,
+            "speed_kmh": 38.468559832816524,
+            "steer_torque": 2.1702715769541676,
+            "steer_deg": 10.927372415965628
+          },
+          "peak_ffb": 0.11810695379972,
+          "clipping_samples": 0
+        }
+      }
+    },
+    "srt27_prototype-candidate-60.csv": {
+      "sha256": "9a374bd3a39fec6edbb3c910eefd4a3b73b29c3dbdc5c421a707ce8177ebbe9a",
+      "last_t": 35.96943968744,
+      "stages": {
+        "0": {
+          "samples": 173,
+          "rms": {
+            "ffb_final": 0.0001554879534481698,
+            "lat_g": 1.0000000031711e-30,
+            "speed_kmh": 0.0007521349258053396,
+            "steer_torque": 0.39967987040649483,
+            "steer_deg": 14.24590385552679
+          },
+          "peak_ffb": 0.00033148674992844,
+          "clipping_samples": 0
+        },
+        "1": {
+          "samples": 173,
+          "rms": {
+            "ffb_final": 0.22187163892359626,
+            "lat_g": 0.46970828899124983,
+            "speed_kmh": 57.61820244916686,
+            "steer_torque": 5.836376381298329,
+            "steer_deg": 14.229247343771554
+          },
+          "peak_ffb": 0.31907233595848,
+          "clipping_samples": 0
+        }
+      }
+    },
+    "madformulateam_mftc3-candidate-60.csv": {
+      "sha256": "23673395caa5e2dcf1c66ce1e18f98a6e491077b6d45dbb4d89e426a788f8914",
+      "last_t": 35.967619197909,
+      "stages": {
+        "0": {
+          "samples": 171,
+          "rms": {
+            "ffb_final": 0.00018641460949935423,
+            "lat_g": 1.0000000031711e-30,
+            "speed_kmh": 0.005394487951188624,
+            "steer_torque": 0.5376929773754379,
+            "steer_deg": 9.396109164300631
+          },
+          "peak_ffb": 0.00032359248143621,
+          "clipping_samples": 0
+        },
+        "1": {
+          "samples": 174,
+          "rms": {
+            "ffb_final": 0.19484443336501883,
+            "lat_g": 0.37983080692185067,
+            "speed_kmh": 52.14805754576285,
+            "steer_torque": 6.522406010600974,
+            "steer_deg": 9.382983888281244
+          },
+          "peak_ffb": 0.28140470385551,
+          "clipping_samples": 0
+        }
+      }
+    }
+  },
+  "limitations": [
+    "No physical wheel attached; actual torque, stationary damping and driver feel unverified.",
+    "Different steering angles used to approximate comparable cornering loads; speeds and loads are not identical.",
+    "No curb, limit-handling, oscillation or full-speed-envelope validation. No clipping applies only to recorded tests.",
+    "Local settings and MFTC3 v1.8 may differ from the remote sim configuration."
+  ]
+}
