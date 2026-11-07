@@ -1,12 +1,18 @@
+# SRT r14 handling test
+
+[Download r14 â€” 30% softer rear springs](https://github.com/Alexcoster010/srt-assetto-corsa/releases/download/v0.14.0-prototype/SRT_2025-2026_r14_Assetto_Corsa.zip) | [Release notes](docs/RELEASE_r14.md)
+
+Includes prior local 9in nominal CG. Driver validation pending. Full car; overwrite existing SRT car and restart session. Exact physics snapshot: revisions/r14/content/cars/srt27_prototype/data.
+
 # Sooner Racing Team Assetto Corsa car
 
-[**Download r13 revised — 600 Nm brakes**](https://github.com/Alexcoster010/srt-assetto-corsa/releases/download/v0.13.0-prototype/SRT_2025-2026_r13_Assetto_Corsa_600Nm.zip) | [Release notes](docs/RELEASE_r13.md)
+[**Download r13 revised ï¿½ 600 Nm brakes**](https://github.com/Alexcoster010/srt-assetto-corsa/releases/download/v0.13.0-prototype/SRT_2025-2026_r13_Assetto_Corsa_600Nm.zip) | [Release notes](docs/RELEASE_r13.md)
 
 Full car; requires CSP0.2.11. Revised r13 (UI0.13.1): brake torque600Nm, front share75%; all other r12 physics unchanged. Driver validation pending. Build r12 then scripts/srt_build_r13.py for source rebuild.
 
 ## Earlier releases
 
-[**Download r12 — tire tune and MFTC3-based FFB**](https://github.com/Alexcoster010/srt-assetto-corsa/releases/download/v0.12.0-prototype/SRT_2025-2026_r12_Assetto_Corsa.zip) | [Release notes](docs/RELEASE_r12.md)
+[**Download r12 ï¿½ tire tune and MFTC3-based FFB**](https://github.com/Alexcoster010/srt-assetto-corsa/releases/download/v0.12.0-prototype/SRT_2025-2026_r12_Assetto_Corsa.zip) | [Release notes](docs/RELEASE_r12.md)
 
 Full car; requires CSP0.2.11. Includes FFB7.8 /assist1.0 and the tire candidate measured at1.798g lateral /1.178g braking in local tests. Driver validation pending. Acceleration1.04g is an ideal estimate, not the measured result. Optional tracks are unchanged.
 
