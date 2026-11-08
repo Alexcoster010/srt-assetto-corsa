@@ -1,0 +1,23 @@
+{
+  "name": "Sooner Racing Team 2025-2026 No.31",
+  "brand": "Sooner Racing Team",
+  "class": "race",
+  "country": "USA",
+  "year": 2027,
+  "author": "SRT project",
+  "version": "0.15.0",
+  "description": "r15 test: torque peak moved from13250 to12250rpm, increased low/mid torque and reduced upper-end torque with unchanged RPM-integrated average. Upshift100ms cut/shift with clutch re-engagement100-180ms. Retains r14 softer rear and nominal9in CG. Inertia0.03 unchanged. Driver validation pending. CSP0.2.11 required.",
+  "tags": [
+    "FSAE",
+    "SRT",
+    "prototype"
+  ],
+  "specs": {
+    "bhp": "67 bhp",
+    "torque": "36 Nm",
+    "weight": "280.5 kg",
+    "topspeed": "provisional",
+    "acceleration": "unverified",
+    "pwratio": "4.19 kg/hp"
+  }
+}

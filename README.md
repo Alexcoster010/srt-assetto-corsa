@@ -1,3 +1,9 @@
+# SRT r15 handling test
+
+[Download r15 — earlier torque peak and smoother upshift test](https://github.com/Alexcoster010/srt-assetto-corsa/releases/download/v0.15.0-prototype/SRT_2025-2026_r15_Assetto_Corsa.zip) | [Release notes](docs/RELEASE_r15.md)
+
+Retains r14 handling. Torque peak12250rpm, equal RPM-averaged torque, revised upshift clutch profile. Driver validation pending. Full car; overwrite existing SRT car and restart session. Exact physics snapshot: revisions/r15/content/cars/srt27_prototype/data.
+
 # SRT r14 handling test
 
 [Download r14 — 30% softer rear springs](https://github.com/Alexcoster010/srt-assetto-corsa/releases/download/v0.14.0-prototype/SRT_2025-2026_r14_Assetto_Corsa.zip) | [Release notes](docs/RELEASE_r14.md)
