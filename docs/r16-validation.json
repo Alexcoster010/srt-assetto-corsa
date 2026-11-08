@@ -1,0 +1,337 @@
+{
+  "controls": [
+    {
+      "section": "CUSTOM_SCRIPT_ITEM_0",
+      "tab": "AERO",
+      "name": "Aero balance - front %",
+      "min": 30,
+      "max": 50,
+      "step": 1,
+      "default": 40
+    },
+    {
+      "section": "SPRING_RATE_LF",
+      "tab": "SUSPENSION",
+      "name": "Wheel rate LF (N/mm)",
+      "min": 17.235425489118,
+      "max": 47.235425489118,
+      "step": 1,
+      "default": 27.235425489118
+    },
+    {
+      "section": "ROD_LENGTH_LF",
+      "tab": "SUSPENSION",
+      "name": "Ride-height adjust LF",
+      "min": 11.359331369081499,
+      "max": 31.3593313690815,
+      "step": 1,
+      "default": 21.3593313690815
+    },
+    {
+      "section": "CAMBER_LF",
+      "tab": "ALIGNMENT",
+      "name": "Camber LF",
+      "min": -4,
+      "max": 1,
+      "step": 0.1,
+      "default": 0
+    },
+    {
+      "section": "TOE_OUT_LF",
+      "tab": "ALIGNMENT",
+      "name": "Toe adjust LF",
+      "min": -10,
+      "max": 10,
+      "step": 1,
+      "default": 0
+    },
+    {
+      "section": "DAMP_BUMP_LF",
+      "tab": "DAMPERS",
+      "name": "Bump LF",
+      "min": 800,
+      "max": 3200,
+      "step": 100,
+      "default": 1800.0
+    },
+    {
+      "section": "DAMP_FAST_BUMP_LF",
+      "tab": "DAMPERS",
+      "name": "Fast Bump LF",
+      "min": 300,
+      "max": 1800,
+      "step": 100,
+      "default": 900.0
+    },
+    {
+      "section": "DAMP_REBOUND_LF",
+      "tab": "DAMPERS",
+      "name": "Rebound LF",
+      "min": 1000,
+      "max": 4000,
+      "step": 100,
+      "default": 2400.0
+    },
+    {
+      "section": "DAMP_FAST_REBOUND_LF",
+      "tab": "DAMPERS",
+      "name": "Fast Rebound LF",
+      "min": 400,
+      "max": 2400,
+      "step": 100,
+      "default": 1200.0
+    },
+    {
+      "section": "SPRING_RATE_RF",
+      "tab": "SUSPENSION",
+      "name": "Wheel rate RF (N/mm)",
+      "min": 17.235425489118,
+      "max": 47.235425489118,
+      "step": 1,
+      "default": 27.235425489118
+    },
+    {
+      "section": "ROD_LENGTH_RF",
+      "tab": "SUSPENSION",
+      "name": "Ride-height adjust RF",
+      "min": 11.359331369081499,
+      "max": 31.3593313690815,
+      "step": 1,
+      "default": 21.3593313690815
+    },
+    {
+      "section": "CAMBER_RF",
+      "tab": "ALIGNMENT",
+      "name": "Camber RF",
+      "min": -4,
+      "max": 1,
+      "step": 0.1,
+      "default": 0
+    },
+    {
+      "section": "TOE_OUT_RF",
+      "tab": "ALIGNMENT",
+      "name": "Toe adjust RF",
+      "min": -10,
+      "max": 10,
+      "step": 1,
+      "default": 0
+    },
+    {
+      "section": "DAMP_BUMP_RF",
+      "tab": "DAMPERS",
+      "name": "Bump RF",
+      "min": 800,
+      "max": 3200,
+      "step": 100,
+      "default": 1800.0
+    },
+    {
+      "section": "DAMP_FAST_BUMP_RF",
+      "tab": "DAMPERS",
+      "name": "Fast Bump RF",
+      "min": 300,
+      "max": 1800,
+      "step": 100,
+      "default": 900.0
+    },
+    {
+      "section": "DAMP_REBOUND_RF",
+      "tab": "DAMPERS",
+      "name": "Rebound RF",
+      "min": 1000,
+      "max": 4000,
+      "step": 100,
+      "default": 2400.0
+    },
+    {
+      "section": "DAMP_FAST_REBOUND_RF",
+      "tab": "DAMPERS",
+      "name": "Fast Rebound RF",
+      "min": 400,
+      "max": 2400,
+      "step": 100,
+      "default": 1200.0
+    },
+    {
+      "section": "SPRING_RATE_LR",
+      "tab": "SUSPENSION",
+      "name": "Wheel rate LR (N/mm)",
+      "min": 20.5938793838667,
+      "max": 56.5938793838667,
+      "step": 1,
+      "default": 36.5938793838667
+    },
+    {
+      "section": "ROD_LENGTH_LR",
+      "tab": "SUSPENSION",
+      "name": "Ride-height adjust LR",
+      "min": 2.180234964279501,
+      "max": 22.1802349642795,
+      "step": 1,
+      "default": 12.180234964279501
+    },
+    {
+      "section": "CAMBER_LR",
+      "tab": "ALIGNMENT",
+      "name": "Camber LR",
+      "min": -4,
+      "max": 1,
+      "step": 0.1,
+      "default": 0
+    },
+    {
+      "section": "TOE_OUT_LR",
+      "tab": "ALIGNMENT",
+      "name": "Toe adjust LR",
+      "min": -10,
+      "max": 10,
+      "step": 1,
+      "default": 0
+    },
+    {
+      "section": "DAMP_BUMP_LR",
+      "tab": "DAMPERS",
+      "name": "Bump LR",
+      "min": 800,
+      "max": 3200,
+      "step": 100,
+      "default": 1800.0
+    },
+    {
+      "section": "DAMP_FAST_BUMP_LR",
+      "tab": "DAMPERS",
+      "name": "Fast Bump LR",
+      "min": 300,
+      "max": 1800,
+      "step": 100,
+      "default": 900.0
+    },
+    {
+      "section": "DAMP_REBOUND_LR",
+      "tab": "DAMPERS",
+      "name": "Rebound LR",
+      "min": 1000,
+      "max": 4000,
+      "step": 100,
+      "default": 2400.0
+    },
+    {
+      "section": "DAMP_FAST_REBOUND_LR",
+      "tab": "DAMPERS",
+      "name": "Fast Rebound LR",
+      "min": 400,
+      "max": 2400,
+      "step": 100,
+      "default": 1200.0
+    },
+    {
+      "section": "SPRING_RATE_RR",
+      "tab": "SUSPENSION",
+      "name": "Wheel rate RR (N/mm)",
+      "min": 20.5938793838667,
+      "max": 56.5938793838667,
+      "step": 1,
+      "default": 36.5938793838667
+    },
+    {
+      "section": "ROD_LENGTH_RR",
+      "tab": "SUSPENSION",
+      "name": "Ride-height adjust RR",
+      "min": 2.180234964279501,
+      "max": 22.1802349642795,
+      "step": 1,
+      "default": 12.180234964279501
+    },
+    {
+      "section": "CAMBER_RR",
+      "tab": "ALIGNMENT",
+      "name": "Camber RR",
+      "min": -4,
+      "max": 1,
+      "step": 0.1,
+      "default": 0
+    },
+    {
+      "section": "TOE_OUT_RR",
+      "tab": "ALIGNMENT",
+      "name": "Toe adjust RR",
+      "min": -10,
+      "max": 10,
+      "step": 1,
+      "default": 0
+    },
+    {
+      "section": "DAMP_BUMP_RR",
+      "tab": "DAMPERS",
+      "name": "Bump RR",
+      "min": 800,
+      "max": 3200,
+      "step": 100,
+      "default": 1800.0
+    },
+    {
+      "section": "DAMP_FAST_BUMP_RR",
+      "tab": "DAMPERS",
+      "name": "Fast Bump RR",
+      "min": 300,
+      "max": 1800,
+      "step": 100,
+      "default": 900.0
+    },
+    {
+      "section": "DAMP_REBOUND_RR",
+      "tab": "DAMPERS",
+      "name": "Rebound RR",
+      "min": 1000,
+      "max": 4000,
+      "step": 100,
+      "default": 2400.0
+    },
+    {
+      "section": "DAMP_FAST_REBOUND_RR",
+      "tab": "DAMPERS",
+      "name": "Fast Rebound RR",
+      "min": 400,
+      "max": 2400,
+      "step": 100,
+      "default": 1200.0
+    },
+    {
+      "section": "ARB_FRONT",
+      "tab": "SUSPENSION",
+      "name": "Anti-roll bar front",
+      "min": 0,
+      "max": 15000,
+      "step": 500,
+      "default": 0
+    },
+    {
+      "section": "ARB_REAR",
+      "tab": "SUSPENSION",
+      "name": "Anti-roll bar rear",
+      "min": 0,
+      "max": 15000,
+      "step": 500,
+      "default": 0
+    }
+  ],
+  "lua_mock_checks": "pass; not AC runtime",
+  "aero_settings_tested": 21,
+  "nominal_total_cl_area": 2.6,
+  "max_lut_total_error": 8.333338463728523e-10,
+  "baseline_existing_changes": [
+    "data/script.lua",
+    "data/setup.ini",
+    "ui/ui_car.json"
+  ],
+  "base_physics_INIs_except_setup_identical_to_r15": true,
+  "launch_limiter_regression": "8000rpm armed/16000rpm released/reset passed in mocked Lua",
+  "runtime_tested": false,
+  "package_hashes_verified": true,
+  "sources": [
+    "Kunos SDK dev/content/cars/formula_k/data/setup.ini",
+    "Installed CSP0.2.11 internal/lua-sdk/ac_car_cphys/lib.lua",
+    "https://github.com/ac-custom-shaders-patch/acc-extension-config/wiki/Cars-%E2%80%93-Physics-scripts"
+  ]
+}

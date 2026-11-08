@@ -1,3 +1,9 @@
+# SRT r16 handling test
+
+[Download r16 — adjustable aero balance and suspension](https://github.com/Alexcoster010/srt-assetto-corsa/releases/download/v0.16.0-prototype/SRT_2025-2026_r16_Assetto_Corsa.zip) | [Release notes](docs/RELEASE_r16.md)
+
+Adds35 pit-setup controls with r15 defaults retained. Aero front balance30-50%, springs, anti-roll bars, ride-height adjustment, camber, toe and dampers. Requires CSP0.2.11. Offline checked; in-game verification pending. [Setup guide](docs/SETUP_GUIDE_r16.md). Exact physics snapshot: revisions/r16/content/cars/srt27_prototype/data.
+
 # SRT r15 handling test
 
 [Download r15 — earlier torque peak and smoother upshift test](https://github.com/Alexcoster010/srt-assetto-corsa/releases/download/v0.15.0-prototype/SRT_2025-2026_r15_Assetto_Corsa.zip) | [Release notes](docs/RELEASE_r15.md)
