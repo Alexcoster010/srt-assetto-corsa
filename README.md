@@ -1,3 +1,9 @@
+# SRT r20 handling test
+
+[Download r20 — temperature, load and slip tire wear](https://github.com/Alexcoster010/srt-assetto-corsa/releases/download/v0.20.0-prototype/SRT_2025-2026_r20_Assetto_Corsa.zip) | [Release notes](docs/RELEASE_r20.md)
+
+Independent tire wear from temperature, load and slip. Nominal70% grip after15 track lengths;60% floor. Driver calibration pending. Reset with new tires or10 seconds in your own pit box. Includes optional Tire Stint HUD. R17 features retained. Mock tested; runtime verification pending. Requires CSP0.2.11. Exact physics snapshot: revisions/r20/content/cars/srt27_prototype/data.
+
 # SRT r19 handling test
 
 [Download r19 — linear tire grip: 70% at lap 15](https://github.com/Alexcoster010/srt-assetto-corsa/releases/download/v0.19.0-prototype/SRT_2025-2026_r19_Assetto_Corsa.zip) | [Release notes](docs/RELEASE_r19.md)

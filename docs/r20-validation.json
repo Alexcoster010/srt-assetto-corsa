@@ -1,0 +1,53 @@
+{
+  "model_tests": {
+    "nominal_15_track_lengths": [
+      0.7001584721991082,
+      0.7001584721991082,
+      0.7001584721991082,
+      0.7001584721991082
+    ],
+    "hot": [
+      0.8602218610787189,
+      0.9001584721990862,
+      0.9001584721990862,
+      0.9001584721990862
+    ],
+    "high_load": [
+      0.7734983896050666,
+      0.9001584721990862,
+      0.9001584721990862,
+      0.9001584721990862
+    ],
+    "lockup": [
+      0.6006338887963433,
+      0.9001584721990862,
+      0.9001584721990862,
+      0.9001584721990862
+    ],
+    "wheelspin": [
+      0.6006338887963433,
+      0.9001584721990862,
+      0.9001584721990862,
+      0.9001584721990862
+    ],
+    "cool": [
+      0.9251188541493162,
+      0.9001584721990862,
+      0.9001584721990862,
+      0.9001584721990862
+    ],
+    "service_reset_floor_timestep_launch": "passed"
+  },
+  "pit_box_service_seconds": 10,
+  "mock_lua_tests": "passed",
+  "launch_regression": "passed",
+  "hud_mock_execution": "passed",
+  "runtime_tested": false,
+  "changed_existing_files": [
+    "content/cars/srt27_prototype/data/script.lua",
+    "content/cars/srt27_prototype/ui/ui_car.json",
+    "apps/lua/srt_tire_stint/manifest.ini",
+    "apps/lua/srt_tire_stint/srt_tire_stint.lua"
+  ],
+  "zip_verified": true
+}

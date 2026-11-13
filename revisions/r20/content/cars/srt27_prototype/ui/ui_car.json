@@ -1,0 +1,23 @@
+{
+  "name": "Sooner Racing Team 2025-2026 No.31",
+  "brand": "Sooner Racing Team",
+  "class": "race",
+  "country": "USA",
+  "year": 2027,
+  "author": "SRT project",
+  "version": "0.20.0",
+  "description": "r20 per-tire gameplay wear: temperature, normal load and slip affect continuous wear. Nominal 70% grip after 15 track lengths, 60% floor. Pit reset unchanged. Optional per-tire HUD. CSP0.2.11 required; runtime validation pending.",
+  "tags": [
+    "FSAE",
+    "SRT",
+    "prototype"
+  ],
+  "specs": {
+    "bhp": "67 bhp",
+    "torque": "36 Nm",
+    "weight": "280.5 kg",
+    "topspeed": "provisional",
+    "acceleration": "unverified",
+    "pwratio": "4.19 kg/hp"
+  }
+}
