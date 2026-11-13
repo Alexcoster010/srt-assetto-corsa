@@ -1,3 +1,9 @@
+# SRT r17 handling test
+
+[Download r17 — brake light, collision coverage and12 driver colors](https://github.com/Alexcoster010/srt-assetto-corsa/releases/download/v0.17.0-prototype/SRT_2025-2026_r17_Assetto_Corsa.zip) | [Release notes](docs/RELEASE_r17.md)
+
+Adds rear brake light, a36-triangle closed collision envelope and12 selectable R17 color skins. R16 tuning retained. Collision crash fix not yet proven in-game. Full car required. Requires CSP0.2.11. Exact physics snapshot: revisions/r17/content/cars/srt27_prototype/data.
+
 # SRT r16 handling test
 
 [Download r16 — adjustable aero balance and suspension](https://github.com/Alexcoster010/srt-assetto-corsa/releases/download/v0.16.0-prototype/SRT_2025-2026_r16_Assetto_Corsa.zip) | [Release notes](docs/RELEASE_r16.md)

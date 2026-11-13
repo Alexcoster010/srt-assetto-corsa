@@ -1,0 +1,36 @@
+{
+  "changed_existing_files": [
+    "collider.kn5",
+    "srt27_prototype.kn5",
+    "data/lights.ini",
+    "ui/ui_car.json"
+  ],
+  "all_handling_physics_unchanged": true,
+  "original_meshes_preserved": 120,
+  "brake_light_mesh": "SRT_BRAKE_LIGHT",
+  "collision_triangle_count": 36,
+  "collision_watertight": true,
+  "collision_convex": true,
+  "collision_volume_m3": 2.950617249999999,
+  "collision_bounds": {
+    "name": "COLLIDER",
+    "min": [
+      -0.6600000262260437,
+      0.054999999701976776,
+      -1.0019999742507935
+    ],
+    "max": [
+      0.6600000262260437,
+      1.1699999570846558,
+      1.9119999408721924
+    ],
+    "vertices": 108,
+    "triangles": 36,
+    "signed_volume": 2.9506172564876856,
+    "material": 0
+  },
+  "new_driver_skins": 12,
+  "runtime_tested": false,
+  "runaway_spin_cause": "unconfirmed",
+  "zip_verified": true
+}

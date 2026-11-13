@@ -1,0 +1,15 @@
+# SRT r17 — brake light, collision coverage and driver colors
+
+Test build November 12, 2026. Includes r16 tuning controls and all existing engine/handling settings.
+
+Rear brake light: new120x50mm rear-facing red lens centered under the rear wing, driven by brake input using Kunos lights.ini v3. It is off with brakes released, independent of headlights. Mount location is illustrative, not a verified team-CAD brake lamp.
+
+Collision coverage: r16's collider was only0.64m wide,0.30m high and1.83m long, leaving much of the wheels/sidepods/wings/upper chassis outside. Replaced it with one closed convex shell spanning1.32m wide,1.115m high and2.914m long, 36 triangles, GL material/no textures, identity transforms. Minimum model Y0.055m stays above the frame floor near0.0508m. Tires' bottom contact region and the lowest17mm of front wing are intentionally not added below the floor. This is a simplified envelope: it fills gaps between parts and does not provide independent deformable wheel/wing collision. Visual parts are not separate crash bodies.
+
+The previous mesh was already closed with valid transforms; missing coverage is confirmed, but the cause of runaway spins/game crashes is NOT proven. This build addresses coverage and deep overlap risk, not a demonstrated solver fix. Mass/inertia, ground box, engine, tire, suspension, brake and aero physics are unchanged. Thin/non-collidable track barriers and high-speed tunnelling cannot be guaranteed fixed by a car mesh. Reproduce low-speed contacts before escalating speed; compare the same barrier/car with r16. Record track/layout, speed, impact side, and whether the same barrier fails with a stock car. If it crashes again, preserve logs/crash dump and stop that test. No artificial angular-velocity clamp is included.
+
+12 NEW selectable skins: White/Black, Crimson, Royal Blue, Sky Blue, Green, Lime, Orange, Yellow, Purple, Magenta, Teal and Silver. Select an R17 skin in Content Manager before joining; each driver selects a different one. Overrides existing white-painted body/wing elements; carbon areas, number31 and brake-light red are unchanged. These are colors, not editable racing numbers. Previews are explicitly labelled color cards, not rendered car views. Existing skins remain available.
+
+Install full car ZIP into Assetto Corsa root, overwrite and restart. There is no small patch because the brake-light mesh changes the main117MB KN5. UI version0.17.0. Requires CSP0.2.11. Back up your setup; reset to baseline when comparing collision behavior. Rollback: reinstall r16 including model/collider/lights.ini; extra r17 skin folders can remain or be removed.
+
+Validation: binary readback/EOF, preserved120 original mesh bounds/material assignments, brake mesh reference, convexity/watertight edges/positive volume/triangle budget, archive checksums and unchanged physics allowlist. Visual brake response and actual collisions are NOT runtime-tested; no crash-fix claim. Kunos SDK AC Pipeline Rev2.0 pages28/36 and colliders.ini comments were used as primary references.
