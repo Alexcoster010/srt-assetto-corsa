@@ -1,0 +1,23 @@
+{
+  "lap_targets": {
+    "0": 1,
+    "5": 0.995,
+    "10": 0.98,
+    "12": 0.96,
+    "14": 0.93,
+    "15": 0.9,
+    "16": 0.8,
+    "17": 0.7,
+    "18": 0.6
+  },
+  "pit_box_service_seconds": 10,
+  "mock_lua_tests": "passed",
+  "launch_regression": "passed",
+  "hud_mock_execution": "passed",
+  "runtime_tested": false,
+  "changed_existing_files": [
+    "content/cars/srt27_prototype/data/script.lua",
+    "content/cars/srt27_prototype/ui/ui_car.json"
+  ],
+  "zip_verified": true
+}

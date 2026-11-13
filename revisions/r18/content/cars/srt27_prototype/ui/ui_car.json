@@ -1,0 +1,23 @@
+{
+  "name": "Sooner Racing Team 2025-2026 No.31",
+  "brand": "Sooner Racing Team",
+  "class": "race",
+  "country": "USA",
+  "year": 2027,
+  "author": "SRT project",
+  "version": "0.18.0",
+  "description": "r18 race-game tire rule: plan pit stops every15 completed laps. New set after actual4-tire reset or10seconds stationary in own pit box. Synthetic equal tire-force scaling; not real LC0 degradation. R17 features retained. CSP0.2.11 required. Runtime testing pending.",
+  "tags": [
+    "FSAE",
+    "SRT",
+    "prototype"
+  ],
+  "specs": {
+    "bhp": "67 bhp",
+    "torque": "36 Nm",
+    "weight": "280.5 kg",
+    "topspeed": "provisional",
+    "acceleration": "unverified",
+    "pwratio": "4.19 kg/hp"
+  }
+}
