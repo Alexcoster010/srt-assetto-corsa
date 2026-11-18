@@ -1,0 +1,82 @@
+{
+  "source": "C:\\Users\\14694\\Documents\\Codex\\D-drive-transfer\\Codex Projects\\SRT\\engineering\\tire-compound-refit-2026-10-01\\R20_18x6_rim6\\R20_18x6_rim6_refit.tir",
+  "source_sha256": "b5ae6b7b44e1684273d0cd891f93ab9a0b13a1343ae11086ee901edcc1eaf0a1",
+  "method": "MF6.1 force sweeps at12psi,zero camber; bounded-envelope projection into AC v7 parameters",
+  "valid_range_N": [
+    150,
+    1250
+  ],
+  "angle_range_deg": [
+    -12,
+    12
+  ],
+  "long_slip_range": [
+    -0.2,
+    0.2
+  ],
+  "peak_caveat": "Maximum sampled forces occur at the slip range edges; these are bounded-envelope maxima, not confirmed physical peaks.",
+  "unknowns_retained_from_LC0": [
+    "vertical stiffness/damping",
+    "relaxation length",
+    "camber coefficients",
+    "thermal model",
+    "rolling resistance",
+    "combined-slip shape",
+    "aligning torque representation"
+  ],
+  "startup_correction": "Restore KEY=value syntax; no spaces adjacent to equals; runtime confirmation pending",
+  "axles": {
+    "FRONT": {
+      "FZ0": 660.183678,
+      "parameters": {
+        "NAME": "R20 fitted 18x6",
+        "SHORT_NAME": "R20",
+        "WIDTH": 0.1524,
+        "RADIUS": 0.2286,
+        "RIM_RADIUS": 0.127,
+        "DX_REF": 2.5510369463503064,
+        "DY_REF": 2.6007276887215633,
+        "DX0": 2.5510369463503064,
+        "DY0": 2.6007276887215633,
+        "LS_EXPX": 0.920878830546088,
+        "LS_EXPY": 0.8801698865369063,
+        "FRICTION_LIMIT_ANGLE": 12.0
+      },
+      "cornering_stiffness_N_per_rad": 27190.91177205061,
+      "sampled_peak_slip_ratio": 0.2,
+      "native_cornering_stiffness_mapping": "not exact; AC v7 friction-angle approximation",
+      "longitudinal": {
+        "load_projection_max_relative_error_400_1000N": 0.011869331926770421
+      },
+      "lateral": {
+        "load_projection_max_relative_error_400_1000N": 0.02184540684193137
+      }
+    },
+    "REAR": {
+      "FZ0": 715.1989844999999,
+      "parameters": {
+        "NAME": "R20 fitted 18x6",
+        "SHORT_NAME": "R20",
+        "WIDTH": 0.1524,
+        "RADIUS": 0.2286,
+        "RIM_RADIUS": 0.127,
+        "DX_REF": 2.532743724744392,
+        "DY_REF": 2.574216095120436,
+        "DX0": 2.532743724744392,
+        "DY0": 2.574216095120436,
+        "LS_EXPX": 0.9372199940678443,
+        "LS_EXPY": 0.863903077964735,
+        "FRICTION_LIMIT_ANGLE": 12.0
+      },
+      "cornering_stiffness_N_per_rad": 28092.560076448695,
+      "sampled_peak_slip_ratio": 0.2,
+      "native_cornering_stiffness_mapping": "not exact; AC v7 friction-angle approximation",
+      "longitudinal": {
+        "load_projection_max_relative_error_400_1000N": 0.0036432712944434176
+      },
+      "lateral": {
+        "load_projection_max_relative_error_400_1000N": 0.020026126072847372
+      }
+    }
+  }
+}
