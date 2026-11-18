@@ -1,3 +1,9 @@
+# SRT r23 handling test
+
+[Download r23 — R20 grip scaled to LC0 targets](https://github.com/Alexcoster010/srt-assetto-corsa/releases/download/v0.23.0-prototype/SRT_2025-2026_r23_Assetto_Corsa.zip) | [Release notes](docs/RELEASE_r23.md)
+
+Independent tire wear from temperature, load and slip. LC0 wears50% as fast as release r20; R20 reference grip matches tuned LC0 while retaining fitted load/slip behavior and wears25% less than revised LC0;60% floor. Driver calibration pending. Reset with new tires or10 seconds in your own pit box. Includes optional Tire Stint HUD. R17 features retained. Mock tested; runtime verification pending. Requires CSP0.2.11. Exact physics snapshot: revisions/r23/content/cars/srt27_prototype/data.
+
 # SRT r22 handling test
 
 [Download r22 — R20 fitted tire and compact INI correction](https://github.com/Alexcoster010/srt-assetto-corsa/releases/download/v0.22.0-prototype/SRT_2025-2026_r22_Assetto_Corsa.zip) | [Release notes](docs/RELEASE_r22.md)

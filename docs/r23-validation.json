@@ -1,0 +1,97 @@
+{
+  "grip_scaling": {
+    "targets_g": {
+      "lateral": 1.8,
+      "acceleration": 1.04,
+      "braking": 1.2
+    },
+    "method": "Match tuned LC0 lateral and longitudinal grip at each axle FZ0; retain R20 load exponents and friction angle",
+    "runtime_targets_verified": false,
+    "limits": "Reference-load normalization, not a hard G cap. Load transfer, aero, power and slip behavior affect actual maxima. Acceleration and braking share DX; separate exact limits cannot be enforced by these coefficients.",
+    "axles": {
+      "FRONT": {
+        "X": {
+          "r22_reference_grip": 2.55103694635,
+          "r23_reference_grip": 1.6274851251162779,
+          "multiplier": 0.6379700331055058
+        },
+        "Y": {
+          "r22_reference_grip": 2.60072768872,
+          "r23_reference_grip": 1.7844625698384615,
+          "multiplier": 0.6861397206551526
+        }
+      },
+      "REAR": {
+        "X": {
+          "r22_reference_grip": 2.53274372474,
+          "r23_reference_grip": 1.6327362188759675,
+          "multiplier": 0.6446511752955095
+        },
+        "Y": {
+          "r22_reference_grip": 2.57421609512,
+          "r23_reference_grip": 1.7826674208166582,
+          "multiplier": 0.6925088473326312
+        }
+      }
+    }
+  },
+  "model_tests": {
+    "nominal_15_track_lengths": [
+      0.8500792360995538,
+      0.8500792360995538,
+      0.8500792360995538,
+      0.8500792360995538
+    ],
+    "hot": [
+      0.9301109305393598,
+      0.9500792360995428,
+      0.9500792360995428,
+      0.9500792360995428
+    ],
+    "high_load": [
+      0.8867491948025336,
+      0.9500792360995428,
+      0.9500792360995428,
+      0.9500792360995428
+    ],
+    "lockup": [
+      0.8003169443981719,
+      0.9500792360995428,
+      0.9500792360995428,
+      0.9500792360995428
+    ],
+    "wheelspin": [
+      0.8003169443981719,
+      0.9500792360995428,
+      0.9500792360995428,
+      0.9500792360995428
+    ],
+    "cool": [
+      0.9625594270746584,
+      0.9500792360995428,
+      0.9500792360995428,
+      0.9500792360995428
+    ],
+    "service_reset_floor_timestep_launch": "passed",
+    "r20_compound_15_track_lengths": [
+      0.8875594270746666,
+      0.8875594270746666,
+      0.8875594270746666,
+      0.8875594270746666
+    ],
+    "compound_ratio_and_service": "passed"
+  },
+  "pit_box_service_seconds": 10,
+  "mock_lua_tests": "passed",
+  "launch_regression": "passed",
+  "hud_mock_execution": "passed",
+  "runtime_tested": false,
+  "changed_existing_files": [
+    "content/cars/srt27_prototype/data/script.lua",
+    "content/cars/srt27_prototype/data/tyres.ini",
+    "content/cars/srt27_prototype/ui/ui_car.json",
+    "apps/lua/srt_tire_stint/manifest.ini",
+    "apps/lua/srt_tire_stint/srt_tire_stint.lua"
+  ],
+  "zip_verified": true
+}

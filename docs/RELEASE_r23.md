@@ -1,0 +1,13 @@
+# SRT r23 â€” R20 grip scaled to LC0 targets
+
+2026-11-17. User requests the R20 compound be scaled toward the same1.8g lateral,1.04g acceleration and1.2g braking targets used for LC0 while keeping its different handling and25% lower wear.
+
+Only R20 DX_REF/DX0 and DY_REF/DY0 change in tyres.ini. Each axle now matches the existing tuned LC0 longitudinal and lateral coefficient at its FZ0 reference load. This reduces r22 R20 lateral force scale by about31% and longitudinal force scale by about36%. Exact multipliers are in the attached source validation. LC0 is untouched. R20 load sensitivity,12deg friction angle, dimensions, camber/thermal/transient baseline and other tire parameters remain exactly r22. The R20 force-versus-load curve therefore retains its shape rather than becoming LC0.
+
+This is reference-load grip normalization to the LC0 calibration, not verified identical maximum G throughout the operating range or an imposed G cap. R20's different load sensitivity and slip angle can change measured maxima. Longitudinal acceleration and braking share the same tire coefficient; power, gearing, driven-axle load and brake balance prevent setting independent exact G limits with tire scaling alone. The earlier1.04g acceleration figure was an accepted ideal upper bound, not a verified achieved acceleration. Actual G envelope needs driving/telemetry validation.
+
+Wear behavior is unchanged from r21/r22: LC0 half the original r20-release wear coefficient; R20 another25% lower than revised LC0 at equal temperature/load/slip/distance. Independent wear,60% minimum grip, pit reset and HUD remain. The compact KEY=value formatting from r22 is preserved. The r21 setup/ground-jumping report remains awaiting user confirmation of the r22 formatting fix; r23 does not claim a new runtime diagnosis.
+
+Install full ZIP, or r22-to-r23 patch over r22, into Assetto Corsa root and overwrite. Restart session and select R20 fitted18x6. Start with the default setup when checking the previous invalid-setup report. Requires compatible CSP0.2.11. Other engine, suspension, aero, brakes, collision and visual settings are unchanged. Reinstall r22 for rollback.
+
+Validation: allowlist verifies exactly eight tire scalar edits across front/rear R20 with all other tire values unchanged. Reference coefficients equal LC0 exactly. Force scaling stays constant at200-1200N while load exponents stay unchanged. Composed Lua tests confirm the0.75 R20/LC0 wear ratio, pit behavior and launch limiter; HUD execution passes. Archive integrity and public download hashes verified on publication. In-game G values and handling are not yet tested.
