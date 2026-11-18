@@ -1,3 +1,9 @@
+# SRT r21 handling test
+
+[Download r21 — half-rate LC0 and R20 endurance option](https://github.com/Alexcoster010/srt-assetto-corsa/releases/download/v0.21.0-prototype/SRT_2025-2026_r21_Assetto_Corsa.zip) | [Release notes](docs/RELEASE_r21.md)
+
+Independent tire wear from temperature, load and slip. LC0 wears50% as fast as release r20; provisional R20 compound wears25% less than revised LC0; fresh grip shared;60% floor. Driver calibration pending. Reset with new tires or10 seconds in your own pit box. Includes optional Tire Stint HUD. R17 features retained. Mock tested; runtime verification pending. Requires CSP0.2.11. Exact physics snapshot: revisions/r21/content/cars/srt27_prototype/data.
+
 # SRT r20 handling test
 
 [Download r20 — temperature, load and slip tire wear](https://github.com/Alexcoster010/srt-assetto-corsa/releases/download/v0.20.0-prototype/SRT_2025-2026_r20_Assetto_Corsa.zip) | [Release notes](docs/RELEASE_r20.md)
